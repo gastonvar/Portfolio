@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing:border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+:root{
+--colorPrincipalTxt:white;
+--colorPrincipalBackgroundButton:rgb(255, 255, 255);
+--colorBorders:rgb(0, 0, 0);
+--colorBotones:black;
+--tamanioPrincipal: 1200px;
+--tamanioBotones:30%;
+--bordeSection: 4px solid black;
+--colorBackgroundInput: rgb(167, 123, 180);
+--fuentePrincipal:'Uncial Antiqua', 'Bacasime Antqiue', serif;
+/*Si no funciona Uncial Antiqua, carga Bacasime Antqiue, ambas de google fonts*/
+}
+
+/*HEADER*/
+header{
+    background-image: url(/IMG/Nautiloid.gif);
+}
+
+header, footer{
+background-color: gray; /*Color similar al gif por si este no carga*/
+background-size:cover;
+background-position: center;
+}
+
+header div{
+    width: var(--tamanioPrincipal);
+    display:flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+/*Logo*/
+header div figure{
+width: 20%;
+}
+
+header div figure img{
+width: 150px;
+}
+
+/*Menu del header*/
+header nav{
+width: 80%;
+background-color:  rgba(0, 0, 0, 0.6);
+border-radius: 15px;
+}
+
+header nav ul{
+display: flex;
+list-style-type:none;
+border-radius: 10px;
+padding: 2px;
+}
+
+header nav ul li{
+    width: 25%;
+}
+
+
+/*Codigo reutilizable*/
+
+/*Codigo principal para botones*/
+.classBoton{
+    display:block;
+    padding: 10px;
+    text-decoration: none;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-family: var(--fuentePrincipal);
+    font-size: 18px;
+    color: var(--colorPrincipalTxt);
+    border: 1px solid white;
+    margin: 0 auto;
+    text-align: center;
+    transition: all .5s;
+}
+
+.classBotonHeader{
+    border:none;
+}
+
+/*Tamaño general para botones de sections*/
+.classBotonSection{
+    width: var(--tamanioBotones)
+    
+}
+
+/*Hover general para botones*/
+.classBotonSection:hover, .classBoton:hover{
+    color: black;
+    background-color: var(--colorPrincipalBackgroundButton);
+    border:1px solid black
+}
+
+/*Codigo general para titulos*/
+h1, h2{
+    font-size: 35px;
+font-family: var(--fuentePrincipal);
+    margin: 0 auto;
+}
+
+/*Codigo principal para titulos con un parrafo breve debajo (el titulo y el parrafo pertenecen a esta clase)*/
+.classTituloParrafo{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+    color:white;
+}
+section{
+    padding-bottom: 70px;
+    padding-top: 35px;
+}
+/*MAIN*/
+main{
+    background-image: url("/IMG/UnderdarkWallpaper.png");
+    background-color: rgb(65, 93, 179); /*Color similar al fondo por si este no carga*/
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/*SECTION 1: Imagen y ingreso de email*/
+section:nth-of-type(1){
+    background-image: url("/IMG/mindflayer.gif");
+    background-color: darkred; /*Color similar al gif por si este no carga*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    height: 700px;
+    border: var(--bordeSection);
+}
+
+section:nth-of-type(1) form{
+    margin:160px auto;
+    width: var(--tamanioPrincipal);
+    text-align: center;
+    color:var(--colorPrincipalTxt);
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 15px;
+    padding: 50px;
+    font-size: 25px;
+}
+
+
+section:nth-of-type(1) form input{
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    width: 30%;
+    background-color: rgb(66, 60, 60);
+    margin: 0 auto;
+    transition: all 0.2s;
+}
+section:nth-of-type(1) form input:focus{
+    background-color: var(--colorBackgroundInput);
+}
+section:nth-of-type(1) form input{
+    margin-top: 25px;
+}
+section:nth-of-type(1) form input[type="submit"]{
+background-color: black;
+}
+section:nth-of-type(1) form input[type="submit"]:hover{
+    background-color: white;
+    color: black;
+}
+    /* Cambia el color del placeholder dentro de los inputs de los forms */
+form input::placeholder, textarea::placeholder {
+    color: black; 
+}
+
+/*SECTION 2: TIENDA 3 PRODUCTOS*/
+
+
+section:nth-of-type(2){
+    border-bottom:var(--bordeSection);
+}
+
+/*Codigo para los items de la seccion 2 y 3*/
+section:nth-of-type(2) div, section:nth-of-type(3){
+    width: var(--tamanioPrincipal);
+    margin:0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: baseline;
+    color:var(--colorPrincipalTxt);
+}
+
+/*Codigo de los articulos*/
+
+section:nth-of-type(2) div article{
+    width: 33%;
+    padding-right:20px;
+}
+section:nth-of-type(2) div h3{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+/*Propiedades utilizadas para los precios y las etiquetas de las noticias*/
+section:nth-of-type(2) div article h4, section:nth-of-type(3) div article span{
+    border-radius: 15px;
+    padding: 5px 10px;
+    background-color: rgb(128, 128, 128,0.6);
+    text-align: center;
+    width: 50%;
+    color:black;
+    font-size: 19px;
+}
+
+section:nth-of-type(2) div article h4 span{
+    text-decoration:line-through;
+    color: purple;
+    border: 1px purple solid;
+    border-radius: 15px;
+}
+
+
+section:nth-of-type(2) div figure img{
+    width: 100%;
+}
+section:nth-of-type(2) div nav{
+    width: 100%;
+    margin-top: 50px;
+}
+section:nth-of-type(2) div article p{
+    text-align: left;
+    padding-top: 25px;
+}
+
+section:nth-of-type(2) div article div{
+    display:flex;
+    justify-content: left;
+}
+
+
+
+/*SECTION 3: Noticias*/
+section:nth-of-type(3){
+align-items:stretch;
+}
+
+section:nth-of-type(3) p{
+    padding-top: 10px;
+}
+
+section:nth-of-type(3) div, section:nth-of-type(3) article{
+    width: 48%;
+}
+section:nth-of-type(3) article{
+    padding-top: 15px;
+}
+section:nth-of-type(3) div article{
+    height: 50%;
+    display:flex;
+    padding-top:15px;
+    width: 100%;
+}
+
+section:nth-of-type(3) article figure{
+    width: 100%;
+}
+section:nth-of-type(3) div article figure{
+    width: 50%;
+}
+
+section:nth-of-type(3) article figure img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+/*Alineacion de todos los textos de todas las noticias*/
+section:nth-of-type(3) article p, section:nth-of-type(3) article a, section:nth-of-type(3) article span, section:nth-of-type(3) article h3{
+    margin-left: 15px;
+}
+section:nth-of-type(3) h3{
+    font-size: 25px;
+}
+section:nth-of-type(3) article p{
+    padding-bottom: 10px;
+}
+section:nth-of-type(3) article a, footer p:nth-of-type(1){
+    font-size: 20px;
+    color:var(--colorPrincipalTxt);
+    font-family: var(--fuentePrincipal);
+}
+
+
+/*SECTION 4: Galeria*/
+section:nth-of-type(4){
+    background-image: url(/IMG/hellscape.jpg);
+    background-color: darkred; /*Color similar al gif por si este no carga*/
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+}
+
+/*El div contenido en la section es un grid de 10 columnas y 5 filas, 
+con al menos 3 tamaños distintos de ocupacion en grilla (ejemplo: galegif 1x2, shadowheart 1x1, karlach 3x1, yurgir 4x4)*/
+
+section:nth-of-type(4) div{
+    margin:0 auto;
+    width: var(--tamanioPrincipal);
+    display:grid;
+    grid-template-columns: repeat(10,auto);
+    grid-template-rows: repeat(5,auto);
+
+    grid-gap: 5px;
+
+    grid-template-areas: "titulo titulo titulo titulo titulo titulo titulo titulo titulo titulo" 
+                        "parrafo parrafo parrafo parrafo parrafo parrafo parrafo parrafo parrafo parrafo"
+                         "galegif galegif karlach durge durge emperor shrooms shrooms raphleft raphright" 
+                         "shadowheart laezel karlach yurgir yurgir emperor owlbeargif owlbeargif raphleft raphright"
+                         "wyll astarion karlach yurgir yurgir emperor owlbeargif owlbeargif raphleft raphright" ;
+}
+
+section:nth-of-type(4) div h2, section:nth-of-type(4) div p{
+    text-align: center;
+    color:rgb(255, 140, 0);
+}
+
+section:nth-of-type(4) div h2{
+    grid-area:titulo;
+}
+section:nth-of-type(4) div p{
+    grid-area:parrafo;
+}
+
+section:nth-of-type(4) div figure img{
+    width:100%;
+    height: 100%;
+    border-radius: 20px;
+
+    object-fit: cover;
+    object-position: center;
+}
+
+/*Declaracion de las grid-area de cada una de las 13 imagenes*/
+section:nth-of-type(4) div figure:nth-of-type(1){
+    grid-area: durge;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(2){
+    grid-area:galegif;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(3){
+    grid-area:emperor;
+}
+
+
+section:nth-of-type(4) div figure:nth-of-type(4){
+    grid-area:owlbeargif;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(5){
+    grid-area:shrooms;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(6){
+    grid-area:shadowheart;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(7){
+    grid-area:astarion;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(8){
+    grid-area:wyll;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(9){
+    grid-area:laezel;
+}
+section:nth-of-type(4) div figure:nth-of-type(10){
+    grid-area:karlach;
+}
+section:nth-of-type(4) div figure:nth-of-type(11){
+    grid-area:yurgir;
+}
+section:nth-of-type(4) div figure:nth-of-type(12){
+    grid-area:raphleft;
+}
+section:nth-of-type(4) div figure:nth-of-type(13){
+    grid-area:raphright;
+}
+
+
+
+
+/*Ajuste de posicion de algunas de las imagenes*/
+section:nth-of-type(4) div figure:nth-of-type(1) img{
+    object-position: -80px 5px;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(2) img{
+    object-position: -100px 5px;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(10) img{
+    object-position: -235px 5px;
+}
+
+section:nth-of-type(4) div figure:nth-of-type(11) img{
+    object-position: -170px;
+}
+section:nth-of-type(4) div figure:nth-of-type(12) img{
+    object-position: -300px;
+}
+section:nth-of-type(4) div figure:nth-of-type(13) img{
+    object-position: 0;
+}
+
+
+
+
+/*SECTION 5: Contacto*/
+
+
+section:nth-of-type(5){
+    color:white;
+    display:flex;
+    flex-wrap: wrap;
+    width: var(--tamanioPrincipal);
+    justify-content: space-around;
+    margin:0 auto;
+}
+
+section:nth-of-type(5) form, section:nth-of-type(5) table{
+    width: 45%;
+    font-family: var(--fuentePrincipal);
+    flex-direction: column;
+    margin-top: 30px;
+}
+/*FORMULARIO*/
+section:nth-of-type(5) form{
+    display:flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-around;
+    flex-direction:row;
+    background-color: rgba(31, 31, 83, 0.6);
+    border-radius: 15px;
+    padding-bottom: 25px;
+}
+section:nth-of-type(5) form fieldset{
+padding: 0 20px;
+font-size: 20px;
+display: flex;
+flex-direction: column;
+width: 50%;
+margin-top: 5px;
+}
+
+section:nth-of-type(5) form fieldset:nth-of-type(3){
+    width: 100%;
+}
+
+section:nth-of-type(5) form label{
+    margin: 10px;
+}
+section:nth-of-type(5) form fieldset:nth-of-type(3) textarea{
+height: 300px;
+resize:none;
+}
+
+section:nth-of-type(5) form input, textarea{
+    padding: 20px;
+    border-radius: 15px;
+    height: 25px;
+    padding-left: 10px;
+    transition: all 0.2s;
+}
+section:nth-of-type(5) form input:focus, textarea:focus, select:focus{
+background-color: var(--colorBackgroundInput)
+}
+select{
+    padding: 10px;
+    height: 100%;
+    border-radius: 15px 15px 5px 5px;
+}
+
+section:nth-of-type(5) form input:nth-last-of-type(1)[type="submit"]{
+    color:white;
+    background-color: rgb(0, 0, 0,0.6);
+    height: 60px;
+    width: 45%;
+    margin-top: 25px;
+}
+section:nth-of-type(5) form input:nth-last-of-type(1)[type="submit"]:hover{
+    background-color: rgb(255, 255, 255);
+    color:rgb(2, 2, 2);
+}
+
+/*TABLA*/
+table{
+    background-color: black;
+    border-radius: 5px;
+    border-collapse:collapse;
+}
+caption{
+    text-align: center;
+    background-color: black;
+    border-radius: 10px 10px 0 0;
+    padding: 5px;
+    color: gray;
+    font-size:25px;
+    letter-spacing: 2px;
+    border:1px solid white;
+}
+table, td, th{
+    border:1px solid rgb(255, 255, 255);
+    padding: 5px;
+}
+td{
+    font-family: 'Times New Roman', Times, serif;
+    width: 20%;
+    text-align: center;
+}
+td:nth-last-of-type(1){
+    text-align: left;
+}
+
+/*Id para "pisar" la declaración anterior*/
+#IdTdTFoot{
+    text-align: center;
+    font-family: var(--fuentePrincipal);
+    letter-spacing: 1px;
+}
+th{
+    font-size: 20px;
+}
+
+
+/*FOOTER*/
+
+/*El footer se ayuda de ciertas propiedades del header relacionadas al background*/
+footer{
+background-image: url(/IMG/smoke.gif);
+border-top: var(--bordeSection);
+}
+
+footer p:nth-of-type(1){
+text-align: center;
+padding-top: 15px;
+color:rgb(0, 0, 0);
+}
+
+footer figure{
+    width: 50px;
+    height: 50px;
+    position:fixed;
+    right: 0px;
+    bottom: 0px;
+}
+footer figure img{
+    width: 100%;
+    border-radius: 15px;
+}
+/*Redes sociales (sprites)*/
+
+footer nav ul{
+    list-style-type: none;
+    display:flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+footer nav ul li{
+    width: 55px;
+    height: 55px;
+    background-image: url(/img/sprites.png);
+    background-repeat: no-repeat;
+    margin: 10px;
+    border:solid rgb(0, 0, 0) 2px;
+    border-radius: 50%;
+    transition: all .1s;
+}
+
+footer nav ul li:hover{
+    border: 5px solid var(--colorBorders);
+}
+
+footer nav ul li a{
+    display:block;
+    width: 55px;
+    height: 55px;
+}
+
+/*Ajuste de los sprites de redes sociales*/
+footer nav ul li:nth-child(1){
+    background-position: 0 0;
+}
+footer nav ul li:nth-child(2){
+    background-position: -50px 0px;
+}
+footer nav ul li:nth-child(3){
+    background-position: -100px 0;
+}
+footer nav ul li:nth-child(4){
+    background-position: -150px 0;
+}
+
+
+
+/*Ajustes de los sprites variados al hacer hover*/
+
+footer nav ul li:nth-child(1):hover{
+    background-position: -5px -65px;
+}
+footer nav ul li:nth-child(2):hover{
+    background-position: -73px -68px;
+}
+footer nav ul li:nth-child(3):hover{
+    background-position: -194px -100px;
+    background-size: 350px;
+}
+footer nav ul li:nth-child(4):hover{
+    background-position: -200px -65px;
+}
+

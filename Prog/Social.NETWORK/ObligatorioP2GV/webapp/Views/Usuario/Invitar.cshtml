@@ -1,0 +1,49 @@
+﻿@model IEnumerable<ClasesObligatorioP2GVDS.Miembro>
+
+@{
+    ViewData["Title"] = "Invitar";
+}
+
+<h1>Invitar</h1>
+
+@if (Model.Count() > 0)
+{
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Apellido)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            <h2>@TempData["msgInvitar"]</h2>
+
+            @foreach (var item in Model)
+            {
+
+
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Apellido)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Enviar Invitacion", "EnviarInvitacion", new {  id=item.Id })
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>NO HAY MIEMBROS PARA INVITAR</h1>
+}

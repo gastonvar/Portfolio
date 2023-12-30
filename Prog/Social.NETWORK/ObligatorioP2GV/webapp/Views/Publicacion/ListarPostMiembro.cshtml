@@ -1,0 +1,117 @@
+﻿@using ClasesObligatorioP2GVDS
+@model IEnumerable<ClasesObligatorioP2GVDS.Post>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Muro de SOCIAL.NETWORK</h1>
+<h4>@TempData["msgPost"]</h4>
+
+@if (Model.Count() > 0)
+{
+    @foreach (var post in Model)
+    {
+        <hr class="border border-primary" />
+        <strong>Post</strong>
+        <hr class="border border-primary" />
+
+        <table class="table table-bordered">
+            <tr>
+                <td><h4>@Html.DisplayFor(modelItem => post.Titulo)</h4></td>
+            </tr>
+            <tr>
+                <td>
+                    <small>Autor: @Html.DisplayFor(modelItem => post.Autor.Nombre)</small>        
+                    @if (post.Privado)
+                    {
+                        <small>Privado: @Html.DisplayFor(modelItem => post.Privado)</small>
+                    }
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <figure>
+                        <img src="~/img/Post/@post.Imagen">
+                    </figure>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><p>@Html.DisplayFor(modelItem => post.Contenido)</p></td>
+            </tr>
+            <tr>
+                <td colspan="2"><small>@Html.DisplayFor(modelItem => post.FechaPublicacion)</small></td>
+            </tr>
+            <tr>
+                <td colspan="2"><strong> Likes: @post.ContarLikes() </strong><span>||</span><strong> Dislikes: @post.ContarDislikes() </strong><span>||</span><strong> VA: @post.CalcularVA() </strong></td>
+            </tr>
+            <tr>
+                <td colspan="2" class="espacios"><span>@Html.ActionLink("Like", "DarLike", new { id=post.Id })</span><span>       ||       </span><span>@Html.ActionLink("Dislike", "DarDislike", new { id=post.Id })</span></td>
+            </tr>
+        </table>
+        <hr class="border border-primary"/>
+        <strong>Comentarios de "@post.Titulo"</strong>
+        <hr class="border border-primary" />
+        @foreach (var comentario in post.GetListaComentarios())
+        {
+            if (Context.Session.GetString("LogueadoRol") == "m")
+            {
+                <table class="table table-bordered">
+                    <tr>
+                        <td><h5>@comentario.Titulo</h5></td>
+                    </tr>
+                    <tr>
+                        <td><small>Autor: @comentario.Autor.Nombre</small></td>
+                    </tr>
+                    <tr>
+                        <td><small>@comentario.FechaPublicacion</small></td>
+                    </tr>
+                    <tr>
+                        <td><p>@comentario.Contenido</p></td>
+                    </tr>
+                    <tr>
+                        <td><strong> Likes: @comentario.ContarLikes() </strong><span>||</span><strong> Dislikes: @comentario.ContarDislikes() </strong><span>||</span><strong> VA: @comentario.CalcularVA() </strong></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2" class="espacios"><span>@Html.ActionLink("Like", "DarLike", new { id=comentario.Id })</span><span>       ||       </span><span>@Html.ActionLink("Dislike", "DarDislike", new { id=comentario.Id })</span></td>
+                    </tr>
+                </table>
+            }
+
+            <hr />
+        }
+        <div class="row">
+            <div class="col-md-4">
+                <form asp-action="ComentarPost" method="post">
+
+                    <div class="form-group">
+                        <label class="control-label">Titulo del comentario: </label>
+                        <input name="titulo" class="form-control" required />
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label"></label>
+                        <input name="contenido" class="form-control" placeholder="Contenido del comentario" required />
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="Comentar @post.Titulo" class="btn btn-primary" />
+                    </div>
+                    <div class="form-group">
+                        <input type="hidden" name="postId" value="@post.Id" />
+                    </div>
+                </form>
+            </div>
+        </div>
+            <hr class="border border-primary" />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+    }
+
+}
+else
+{
+    <h1>NO HAY POSTS</h1>
+}

@@ -1,0 +1,47 @@
+﻿@model ClasesObligatorioP2GVDS.Post
+
+@{
+    ViewData["Title"] = "Postear";
+}
+
+<h1>Postear</h1>
+
+<h4>Post</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group form-check">
+                <label class="form-check-label">
+                    <input class="form-check-input" asp-for="Privado" /> @Html.DisplayNameFor(model => model.Privado), solo tus amigos podrán verlo
+                </label>
+            </div>
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-label"></label>
+                <input asp-for="Titulo" class="form-control" required/>
+                <span asp-validation-for="Titulo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contenido" class="control-label"></label>
+                <input asp-for="Contenido" class="form-control" required/>
+                <span asp-validation-for="Contenido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label class="control-label">Foto, debe ser .png o .jpg</label>
+                <input type="file" name="archivo"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Postear" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<p>@ViewBag.msgPostear</p>
+<div>
+    <a asp-controller="Publicacion" asp-action="Listar">Ir a los posts</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

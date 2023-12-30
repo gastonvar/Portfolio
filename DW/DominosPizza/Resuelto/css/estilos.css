@@ -1,0 +1,110 @@
+
+:root{
+    --colorRojo: #eb1737;
+    --colorCeleste: #006491;
+}
+body {}
+
+h1, h2{
+    font-family: Bebas;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+h1 span{
+    color: var(--colorRojo);
+}
+
+h2{
+    font-size: 40px;
+    color: var(--colorCeleste);
+}
+
+h2 span{
+    color: var(--colorRojo);
+}
+
+/* MENU */
+header ul{
+    background-color: var(--colorRojo);
+}
+
+header ul li a{
+    display: block;
+    color: white;
+    font-family: Bebas;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+header ul li a:hover{
+    background-color: white;
+    color: var(--colorRojo);
+}
+
+/* SECCION 1*/
+
+section:nth-of-type(1){
+    background-color: var(--colorCeleste);
+}
+
+section article a{
+    background-color: var(--colorRojo);
+    color: white;
+
+    font-size: 20px;
+    font-family: Bebas;
+}
+
+section article a:hover{
+    background-color: var(--colorCeleste);
+    color: white;
+}
+
+/* SECCION 3*/
+section:nth-of-type(3){
+    background-image: url("../img/fondo.jpeg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/* SECCION 4 */
+
+section:nth-of-type(4) h2, figcaption{
+    color: white;
+}
+section:nth-of-type(4){
+    background-color: var(--colorRojo);
+}
+
+/* SECCION 5*/
+
+section:nth-of-type(5) figure{
+    border: 4px solid var(--colorCeleste);
+}
+
+input, textarea, select{
+    border: 2px solid var(--colorCeleste);  
+}
+
+input[type="submit"]{
+    background-color: var(--colorCeleste);
+    color: white;
+}
+
+/* footer */
+
+footer{
+    background-color: var(--colorRojo);
+    color: white;
+}
+
+/* FUENTES */
+
+@font-face {
+    font-family: Bebas;
+    src: url("../fonts/bebas.ttf");
+}

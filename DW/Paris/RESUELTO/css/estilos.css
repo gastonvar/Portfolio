@@ -1,0 +1,154 @@
+/* FUENTES */
+@font-face {
+    font-family: Titulos;
+    src: url("../fonts/Yellow.ttf");
+}
+
+@font-face {
+    font-family: Textos;
+    src: url("../fonts/Montserrat.ttf");
+}
+
+/* ESPECIFICACIONES 
+
+Color base: #F9F2E0
+
+
+*/
+
+/* COMIENZA CSS DEL SITIO */
+
+h1{
+    font-family: Titulos;
+    font-size: 4em;
+}
+
+h2{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1em;
+}
+
+h2, p, a, ul, figcaption{
+    font-family: Textos;
+}
+
+/* HEADER */
+header{
+    width: 100%;
+    background-color: #F9F2E0;
+    position: fixed;
+    top: 0;
+    z-index: 300;
+}
+
+
+header nav a{
+    color: black;
+    text-decoration: none;
+    letter-spacing: 1px;
+    border: 1px solid #F9F2E0;
+
+    font-family: Textos;
+}
+
+header nav a:hover{
+    border: 1px solid black;
+    color: black;
+}
+
+/* SECTION 1 BERLIN */
+
+section:nth-of-type(1){
+    background-color: #F9F2E0;
+    background-image: url("../img/header.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    height: 70vh;
+}
+
+/* SECCION FOTOS */
+
+section:nth-of-type(2) h1{
+    color: black;
+}
+
+section:nth-of-type(2) figcaption{
+    text-decoration: underline;
+    text-align: center;
+}
+
+section:nth-of-type(2) figure{
+    position: relative;
+}
+
+section:nth-of-type(2) figcaption{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+/* SECCION NOVEDADES */
+
+section:nth-of-type(3){
+    background-image: url("../img/pattern.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+section:nth-of-type(3) h1{
+    background-color: black;
+}
+
+
+section:nth-of-type(3) input{
+    border: 3px solid black;
+}
+
+section:nth-of-type(3) input[type="submit"]:hover{
+    background-color: black;
+    color: white;
+}
+/* SECCION LUGAR 1 */
+
+section:nth-of-type(4){
+    border-bottom: 6px solid #F9F2E0;
+}
+
+section:nth-of-type(4) a, 
+section:nth-of-type(5) a{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+section:nth-of-type(4) a:hover,
+section:nth-of-type(5) a:hover{
+    background-color: black;
+    color: white;
+}
+
+/* FOOTERR */
+
+footer{
+    background-color: #F9F2E0;
+}
+
+footer a{
+    color: black;
+    border: 1px solid black;
+    text-decoration: none;
+}
+
+footer a:hover{
+    background-color: black;
+    color: white;
+}

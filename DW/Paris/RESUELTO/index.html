@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Plantilla inicio - Bootstrap v5.2.0</title>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        
+       <!--Primero el móvil, no tender a hacer zoom, sino levantar a escala natural siempre y cuando haya
+       sido pensado como un sitio responsive, y anular el comportamiento de ajustar a los límites del dispositivo
+       el contenido, cuando este sobresalga-->
+       <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <!--Bootstrap CSS-->
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <!--CSS Propio-->
+        <link href="css/estilos.css" rel="stylesheet" type="text/css"/>
+
+        <!-- JavaScript -->
+        <!-- Popper.js + Bootstrap JS o Boostrap con Popper inc. -->
+        <script src="js/bootstrap.bundle.js"></script>
+        <!--<script src="js/popper.min.js"></script>-->
+        <!--<script src="js/bootstrap.js"></script>-->
+
+    </head>
+    <body>
+
+        <main class="container-fluid">
+            <header class="row justify-content-between align-items-center align-content-center p-2" >
+                <nav class="col-9 text-uppercase">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <strong>PARIS</strong>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#fotos" class="p-2">Fotos</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#novedades" class="p-2">Novedades</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#lugares" class="p-2">Lugares</a>
+                        </li>
+                    </ul>
+                </nav>
+                <nav class="col-3 text-end">
+                    <ul class="list-inline">
+                        <li class="list-inline-item">
+                            <img src="img/f.png" alt="">
+                        </li>
+                        <li class="list-inline-item">
+                            <img src="img/i.png" alt="">
+                        </li>
+                    </ul>
+                </nav>
+            </header >
+            <!-- SECCION FOTO PARIS -->
+            <section class="row" id="menu">
+
+            </section>
+            <!-- SECCION FOTOS -->
+            <section class="row justify-content-center px-5" id="fotos">
+                <h1 class="col-12 text-center p-3">Paris en fotos</h1>
+                <figure class="col-11 col-sm-5 col-lg-4">
+                    <img src="img/foto-1.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2 ml-2">Louvre</figcaption>
+                </figure>
+                <figure class="col-11 col-sm-5 col-lg-4">
+                    <img src="img/foto-2.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2">Pont Alexandre III</figcaption>
+                </figure>
+                <figure class="d-none d-lg-block col-lg-4">
+                    <img src="img/foto-3.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2">Musée Rodin</figcaption>
+                </figure>
+                <figure class="d-none d-lg-block col-lg-4">
+                    <img src="img/foto-6.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2">Torre Eiffel</figcaption>
+                </figure>
+                <figure class="col-11 col-sm-10 col-lg-4">
+                    <img src="img/foto-7.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2">Musee Lotu</figcaption>
+                </figure>
+                <figure class="col-11 col-sm-10 col-lg-4">
+                    <img src="img/foto-8.jpeg" alt="" class="img-fluid rounded">
+                    <figcaption class="p-2">Rua da Place</figcaption>
+                </figure>
+            </section>
+            <!-- SECCION NEWSLETTER -->
+            <section class="row p-4 justify-content-center d-none d-sm-block" id="novedades">
+                <h1 class="col-12 text-center p-2">Novedades en tu e-mail</h1>
+                <form action="" class="col-12 text-center">
+                    <input type="text" placeholder="Ingresa tu e-mail" class="w-50 p-3">
+                    <input type="submit" value="Suscribite" class="w-25 p-3">
+                </form>
+            </section>
+
+            <!-- SECCION LUGARES-->
+            <!-- LUGAR 1-->
+            <section class="row text-center justify-content-center align-items-center py-5 py-sm-0 py-md-5" id="lugares">
+                <figure class="col-11 d-sm-none  d-lg-block col-lg-5">
+                    <img src="img/foto-4.jpeg" alt="" class="img-fluid rounded">
+                </figure>
+                <article class="col-10 d-sm-none d-lg-block col-lg-4">
+                    <h2>DESCUBRÍ</h2>
+                    <h1>Palais Garnier</h1>
+                    <p>Es uno de los edificios de Bellas Artes más opulentos de París. Prepárate para deslumbrarte con la gran escalera de mármol, los candelabros dorados y los techos con frescos.</p>
+                    <a href="#" class="p-2">¡Quiero más info!</a>
+                </article>
+            </section>
+            <!-- LUGAR 2-->
+            <section class="row text-center justify-content-center align-items-center py-0 py-sm-5 py-lg-5">
+                <article class="d-none d-sm-block col-sm-11 col-lg-4 mb-sm-4">
+                    <h2>DESCUBRÍ</h2>
+                    <h1>Notre-Dame</h1>
+                    <p>La icónica fachada y los rosetones de la catedral atraen multitudes masivas (además, la entrada es gratuita), así que planee llegar temprano, idealmente antes de las 10 a. m., o venga a la misa católica (puede omitir la fila de turistas).</p>
+                    <a href="#" class="p-2 ">¡Quiero más info!</a>
+                </article>
+                <figure class="d-none d-sm-block col-sm-10 col-lg-5">
+                    <img src="img/foto-5.jpeg" alt="" class="img-fluid rounded">
+                </figure>
+            </section>
+            <!-- FOOTER -->
+            <footer class="row justify-content-between align-items-center">
+                <p class="col-10 text-center p-3">Sitio realizado por <strong>Nombre Alumno</strong></p>
+                <nav class="col-2 text-center text-uppercase "><a href="#menu" class="p-2">subir</a></nav>
+            </footer>
+        </main>
+
+
+
+
+        
+    </body>
+</html>

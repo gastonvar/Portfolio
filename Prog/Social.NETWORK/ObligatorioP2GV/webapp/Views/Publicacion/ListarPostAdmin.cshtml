@@ -1,0 +1,48 @@
+﻿@using ClasesObligatorioP2GVDS
+@model IEnumerable<ClasesObligatorioP2GVDS.Post>
+
+@{
+    ViewData["Title"] = "Listar";
+}
+
+<h1>Posts</h1>
+
+@if (Model.Count() > 0)
+{
+    @foreach (var post in Model)
+    {
+        if (Context.Session.GetString("LogueadoRol") == "a")
+        {
+
+            <h4>@Html.DisplayFor(modelItem => post.Titulo)</h4>
+            <figure>
+                <img src="~/img/Post/@post.Imagen">
+            </figure>
+            <span>Id: @Html.DisplayFor(modelItem => post.Id)</span>
+            <span>Autor: @Html.DisplayFor(modelItem => post.Autor.Nombre)</span>
+            <span>Privado: @Html.DisplayFor(modelItem => post.Privado)</span>
+            <span>Censurado:  @Html.DisplayFor(modelItem => post.Censurado)</span>
+            <p>@Html.DisplayFor(modelItem => post.Contenido)</p>
+            <span>@Html.DisplayFor(modelItem => post.FechaPublicacion)</span>
+            <p>Likes: @post.ContarLikes()</p>
+            <p>Dislikes: @post.ContarDislikes()</p>
+            <p>VA: @post.CalcularVA()</p>
+
+
+            @Html.ActionLink("Banear / Desbanear", "Banear", new { id=post.Id }) 
+
+
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+        }
+    }
+
+}
+else
+{
+    <h1>NO HAY POSTS</h1>
+}

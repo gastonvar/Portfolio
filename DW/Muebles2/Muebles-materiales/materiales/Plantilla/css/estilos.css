@@ -1,0 +1,86 @@
+
+:root{
+    --colorMarron: rgb(133,99,35);
+    --colorAmarillo:rgb(178,152,104);
+}
+@font-face {
+    font-family: Lobset;
+    src: url(/fonts/Lobster.ttf);
+}
+h1, h2, h3{
+    font-family: Lobset;
+}
+h1{
+    font-size: 70px;
+    color: white;
+}
+h2{
+    font-size: 40px;
+}
+
+span{
+    color: var(--colorMarron);
+}
+
+/*COMIENZA MI SITIO*/
+header{
+    background-color: rgb(221, 220, 220);
+}
+
+header nav ul li a{
+    border:2px solid var(--colorAmarillo);
+    color: var(--colorAmarillo);
+}
+
+/*SECTION 1*/
+section:nth-of-type(1){
+    background-image: url(/img/black-friday.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    border-top:5px solid var(--colorMarron);
+    border-bottom:5px solid var(--colorMarron);
+}
+
+section:nth-of-type(1) a{
+background-color: black;
+border:2px solid white;
+color:white;
+}
+
+/*SECTION 2*/
+section:nth-of-type(2) h3{
+    border-bottom: 1px solid var(--colorMarron);
+}
+section:nth-of-type(2) a{
+    color: var(--colorAmarillo);
+    border: 2px solid var(--colorAmarillo);
+}
+
+/*SECTION 3*/
+section:nth-of-type(3){
+    background-image: url(/img/contacto-header.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+section:nth-of-type(3) p{
+    background-color: var(--colorMarron);
+}
+
+
+/*SECTION 4*/
+section:nth-of-type(4) form input, section:nth-of-type(4) form select, section:nth-of-type(4) form textarea{
+border: 2px solid var(--colorMarron);
+}
+
+section:nth-of-type(4) form input[type="submit"]{
+    background-color: var(--colorMarron);
+    color: white;
+}
+
+/*FOOTER*/
+footer{
+    background-color: black;
+}
+footer p, footer span{
+    color: white;
+}

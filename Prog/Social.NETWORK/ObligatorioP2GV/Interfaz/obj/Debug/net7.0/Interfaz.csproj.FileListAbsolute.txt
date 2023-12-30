@@ -1,0 +1,144 @@
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V0.96\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\sabat\Desktop\ORT ATI\2do SEMESTRE\Programación 2\Obligatorio\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ATI\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\ObligatorioP2\ObligatorioP2GVDS\ObligatorioP2GVDS_V1.15\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\sabat\Downloads\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\refint\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.exe
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.deps.json
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.runtimeconfig.json
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\Interfaz.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.dll
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\bin\Debug\net7.0\ClasesObligatorioP2GVDS.pdb
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.csproj.CopyComplete
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\Interfaz.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ATI\SS-2023\Programación 2\Obligatorio\Obligatorio2\20231003-ATI-307487-316838-M2A\ObligatorioP2GVDS_V1.22\Interfaz\obj\Debug\net7.0\ref\Interfaz.dll

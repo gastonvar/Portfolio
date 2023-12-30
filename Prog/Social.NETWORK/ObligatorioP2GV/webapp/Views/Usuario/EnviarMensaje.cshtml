@@ -1,0 +1,41 @@
+﻿@model IEnumerable<ClasesObligatorioP2GVDS.Models.Mensaje>
+
+
+
+<h1>Chat</h1>
+@{
+    int IdAGuardar = -1; 
+}
+
+@foreach(var item in Model)
+{
+    if (item.IdEnvia!=Context.Session.GetInt32("LogueadoId"))
+    {
+        IdAGuardar = item.IdEnvia;
+    }
+    if (item.IdRecibe != Context.Session.GetInt32("LogueadoId"))
+    {
+        IdAGuardar = item.IdRecibe;
+    }
+    if (item.IdEnvia == @ViewBag.IdEnvia)
+    {
+        <p>@ViewBag.NombreEnvia</p>
+    }
+    else
+    {
+        <p>@ViewBag.NombreRecibe</p>
+    }
+    <p>@item.Hora</p>
+    <p>@item.Contenido</p>
+    <br />
+    <br />
+    <br />
+
+}
+
+<form asp-action="EnviarMensaje">
+    <input type="hidden" name="IdAGuardar" value="@ViewBag.IdAGuardar" />
+    <input type="textarea" name="Contenido" placeholder="Contenido del mensaje"/>
+    <button type="submit" asp-action="EnviarMensaje">Enviar Mensaje</button>
+</form>
+

@@ -1,0 +1,116 @@
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ESPECIFICACIONES
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+COLORES
+Verde: #04743b
+Violeta: #4c2484
+TEXTOS
+Titulos: Roza
+Texto: Roboto
+*/
+
+:root{
+    --colorVerde: #04743b;
+    --colorVioleta: #4c2484;
+}
+
+h1,h2,h3{
+    font-family: Roza;
+}
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 2rem;
+}
+h2{
+    color: white;
+    background-color: var(--colorVerde);
+}
+p{
+    font-family: Roboto;
+}
+
+@font-face {
+    font-family: Roza;
+    src: url(/fonts/Roza.ttf);
+}
+
+@font-face{
+    font-family: Roboto;
+    src:url(/fonts/Roboto.ttf);
+}
+
+
+/*HEADER*/
+header{
+    background-image: url(/img/cabezal.jpg);
+}
+
+header nav ul{
+background-color: white;
+}
+
+header nav ul li{
+    letter-spacing: 1px;
+}
+
+header nav ul li a{
+    color: var(--colorVioleta);
+    transition: all .5s;
+}
+
+header nav ul li a:hover{
+    background-color: var(--colorVioleta);
+    color: white;
+}
+
+/*SECTION COMENZO UN NUEVO TORNEO*/
+section:nth-of-type(1) h1{
+    color: var(--colorVioleta);
+}
+
+section:nth-of-type(1) h1 span{
+    background-color: var(--colorVioleta);
+    color: white;
+}
+
+/*SECTION NOTICIA DEL DIA*/
+section:nth-of-type(2) {
+    background-color: var(--colorVerde);
+    color: white;
+}
+section:nth-of-type(2) h2{
+    border-top: 5px solid var(--colorVioleta);
+}
+
+/*SECTION JUGADORES*/
+
+
+div section article a{
+    background-color: var(--colorVioleta);
+    color: white;
+}
+
+/*SECTION SUSCRIBITE A NUESTRAS NOVEDADES*/
+
+section:nth-of-type(3){
+    background-color: var(--colorVioleta);
+}
+
+
+section:nth-of-type(3) input[type="submit"]{
+    background-color: var(--colorVerde);
+    color: white;
+    border: none;
+}
+
+/*FOOTER*/
+footer{
+    background-color: var(--colorVioleta);
+    color: white;
+}

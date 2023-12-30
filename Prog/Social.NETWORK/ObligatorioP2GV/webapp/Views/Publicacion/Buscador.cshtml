@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ClasesObligatorioP2GVDS.Publicacion>
+
+@{
+    ViewData["Title"] = "Buscador";
+}
+
+<h1>Buscador</h1>
+
+<form method="post">
+    <input type="text" name="criterio" placeholder="Criterio de busqueda" required/>
+    <input type="number" name="va" placeholder="Valor de aceptacion minimo" required/>
+    <input type="submit" value="buscar" />
+</form>
+@if (Model.Count()>0)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Tipo</th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Id)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model=>model.Autor)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Titulo)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Contenido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.FechaPublicacion)
+                </th>
+                <th>
+                    VA
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.GetType().Name)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem=>item.Autor.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Titulo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contenido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaPublicacion)
+                    </td>
+                    <td>@item.CalcularVA()</td>
+                </tr>
+            
+            }
+
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>NINGUNA PUBLICACIÓN COINCIDE CON SU BUSQUEDA</h1>
+}

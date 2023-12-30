@@ -1,0 +1,114 @@
+:root{
+    --colorRojo: #eb1737;
+    --colorCeleste: #006491;
+}
+
+h1,h2{
+    font-family: Titulos;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+}
+
+h2{
+    font-size: 40px;
+    color: var(--colorCeleste);
+}
+
+a{
+    font-size: 20px;
+    font-family: Titulos;
+}
+
+@font-face{
+    font-family: Titulos;
+    src:url("/fonts/bebas.ttf");
+}
+
+/*HEADER*/
+header nav{
+    background-color: var(--colorRojo);
+}
+
+header nav ul li a{
+    color: white;
+}
+
+/*SECTION 1*/
+main section:nth-of-type(1){
+    background-color: var(--colorCeleste);
+}
+
+main section:nth-of-type(1) h1 span{
+    color: var(--colorRojo);
+}
+
+/*SECTION 2*/
+main section h2 span{
+    color: var(--colorRojo);
+}
+
+main section article a{
+background-color: var(--colorRojo);
+color: white;
+}
+
+/*SECCION MMM QUE RICO*/
+section:nth-of-type(3){
+    background-image: url("../img/fondo.jpeg");
+    background-size: cover;
+}
+
+section:nth-of-type(3) h2{
+    color: white;
+}
+/*TIENDAS*/
+main section:nth-of-type(4){
+    background-color: var(--colorRojo);
+}
+main section:nth-of-type(4) h2{
+    color: white;
+}
+
+figcaption{
+    color: white;
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+/*FORM*/
+section:nth-of-type(5) img{
+    border: 4px solid var(--colorCeleste);
+}
+form img, form select, form input, form textarea{
+    border:2px solid var(--colorCeleste);
+    }
+    
+    form input[type=submit]{
+        background-color: var(--colorCeleste);
+        width: 50%;
+        height: 50px;
+        color: white;
+        transition: all .5s;
+    }
+    
+    
+    form input[type=submit]:hover{
+    background-color: white;
+    color: var(--colorCelete);
+    }
+    
+    form textarea{
+    resize: none;
+    }
+    
+    /*FOOTER*/
+    footer{
+        background-color: var(--colorRojo);
+        color: white;
+    }
+    

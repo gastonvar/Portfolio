@@ -1,0 +1,107 @@
+/* FUENTES */
+@font-face {
+    font-family: Titulos;
+    src: url("../fonts/Poppins-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: Textos;
+    src: url("../fonts/Roboto-Medium.ttf");
+}
+
+/* ESPECIFICACIONES 
+
+section store h2 con separacion entre letras de 5px
+
+*/
+
+/* COMIENZA CSS DEL SITIO */
+
+:root{
+    --colorPromocionesSale:rgb(216,7,7);
+    --colorBordeHeader:rgb(191,191,191);
+    --anchoLogo:200px;
+    --alturaSeccionInicial: 65vw;
+    --alturaSeccionStore:45vw;
+}
+a{
+    letter-spacing: 2px;
+}
+p,a, figcaption{
+    font-family: Textos;
+}
+h1,h2{
+    font-family: Titulos;
+}
+h1{
+    font-size: 5em;
+}
+h2{
+    font-size: 2em;
+}
+
+span{
+    color: red;
+}
+
+/*HEADER*/
+header p{
+    background-color: black;
+    color: white;
+}
+header figure img{
+    width: var(--anchoLogo);
+}
+header nav{
+    border-top: 2px solid var(--colorBordeHeader);
+}
+header nav ul li a{
+    color: black;
+}
+
+/*SECCION 1*/
+section:nth-of-type(1){
+    background-image: url(/img/banner.jpeg);
+    height: var(--alturaSeccionInicial);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: 50%;
+    background-attachment: fixed;
+}
+section:nth-of-type(1) h1{
+    margin: auto;
+    color: rgb(255,255,255,0.6);
+}
+
+/*SECCION 2*/
+section:nth-of-type(2) h2 span{
+    color:black;
+}
+
+/*SECCION 3*/
+section:nth-of-type(3) figure{
+    position: relative;
+}
+section:nth-of-type(3) figure figcaption{
+position: absolute;
+bottom: 15px;
+left: 12px;
+color: white;
+background-color: black;
+font-size: 25px;
+}
+
+/*SECCION 4*/
+section:nth-of-type(4){
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    height: 25vw;
+    background-image: url(/img/store.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+section:nth-of-type(4) h2{
+    background-color: white;
+    margin: auto;
+}

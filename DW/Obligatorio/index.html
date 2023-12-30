@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--TITULO-->
+    <title>Baldurs Gate 3 FanPage/FanStore</title>
+
+    <!--AUTOR-->
+    <meta name="author" content="Gastón Varela">
+
+    <!--DESCRIPCION-->
+    <meta name="description" content="Sitio web fanpage/fanstore con tematica del videojuego Baldurs Gate 3, presentado como solucion al obligatorio de la materia Diseño Web el segundo semestre del 2023">
+    
+    <!--KEYWORDS-->
+    <meta name="keywords" content="obligatorio, ort, baldurs, gate, baldurs gate 3, larian, larian studios, videojuego, tienda, fanstore, baldurs gate 3 fanstore, aventura, dungeons and dragons, dados, karlach, wyll, gale, astarion, tav, RPG, CRPG, combate basado en grupos, perspectiva isométrica, personalización de personajes, elecciones, consecuencias, jugabilidad centrada en la historia, tiempo real con pausa, progresión de habilidades, nivelación, clases, razas, hechizos, habilidades mágicas, exploración, descubrimiento, misiones, tareas, personajes, compañeros, combate táctico, multijugador cooperativo, historias de origen, comportamiento e interacción de la inteligencia artificial, configuración de fantasía">
+    
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Uncial+Antiqua&display=swap" rel="stylesheet">
+    
+    <!--Nuestro CSS-->
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+
+    <!--HEADER-->
+    <header id="inicio"> 
+    <div> <!--Este div tiene el width de 1200px, para que el fondo no sea cortado-->
+        <!--LOGO-->
+        <figure>
+            <img src="IMG/logo-bg3.png" alt="Logo de Baldurs Gate 3">
+        </figure>
+        <!--MENU-->
+        <nav>
+            <ul>
+                <li>
+                    <a href="#inicio" class="classBoton classBotonHeader">inicio</a>
+                </li>
+                <li>
+                    <a href="#tienda" class="classBoton classBotonHeader">productos</a>
+                </li>
+                <li>
+                    <a href="#noticias" class="classBoton classBotonHeader">noticias</a>
+                </li>
+                <li>
+                    <a href="#galeria" class="classBoton classBotonHeader">galería</a>
+                </li>
+                <li>
+                    <a href="#contacto" class="classBoton classBotonHeader">contacto</a>
+                </li>
+            </ul>
+        </nav>
+      
+    </div>
+</header>
+
+    <!--CONTENEDOR PRINCPAL-->
+<main>
+    <!--SECTION 1: Imagen y ingreso de email-->
+    <section>
+        <form action="#"> <!--Form de color negro no opaco de tamaño 1200px-->
+            <h1>¿Quieres recibir las últimas noticias?</h1>
+            <p>Dejanos contactarte via mail</p>
+            <input type="email" id="txt" placeholder="Ingresa tu e-mail.." required>
+            <input type="submit" class="classBoton" value="¡Quiero saber más!">
+        </form>
+    </section>
+
+    <!--SECTION 2: Tienda-->
+    <section id="tienda">
+            <div> <!--Este div tiene el width de 1200px, conteniendo a los articulos, 
+                la section ocupa toda la pagina para que el border-bottom no sea cortado-->
+                
+                <h2 class="classTituloParrafo">PRODUCTOS DESTACADOS</h2>
+                <p class="classTituloParrafo"><em>Busca tu país en la página para envíos</em></p>
+                <!--3 ARTICULOS CON LA MISMA ESTRUCTURA-->
+                <article>
+                <figure>
+                    <img src="IMG/MindflayerVsDrow.png" alt="AzotamentesVsDrow">
+                </figure>
+                <h3>Figura Azotamentes vs Drow</h3>
+                    <h4>USD $95 <span>USD $150</span></h4>
+                
+                <p>Figura de 30x30x30cm del Emperador contra un Drow</p>
+                </article>
+
+                <article>
+                <figure>
+                    <img src="IMG/JuegoEdicionColeccionista.png" alt="BG3EdicionColeccionista">
+                </figure>
+                <h3>BG3 Collector's Edition</h3>
+                    <h4>USD $80 <span>USD $135</span></h4>
+                <p>Edicion coleccionista del videojuego con todos los DLC incluidos</p>
+                </article>
+
+                <article>
+                <figure>
+                    <img src="IMG/Bg3Shirt.png" alt="RemeraBG3">
+                </figure>
+                <h3>Remera de Baldur's Gate 3</h3>
+                    <h4>USD $20 <span>USD $45</span></h4>
+                <p>Remera disponible de talle XS a XL</p>
+                </article>
+                        
+                <nav><a href=""  class="classBoton classBotonSection">ver mas productos</a></nav>
+            </div>
+    </section>
+
+    <!--SECTION 3: Noticias-->
+    <section id="noticias">
+        <h2 class="classTituloParrafo">Noticias</h2>
+        <p class="classTituloParrafo">Ultimas noticias destacadas</p>
+            <article>
+                <figure>
+                    <img src="IMG/BG3New.gif" alt="Wallpaper de baldurs gate">
+                </figure>
+                
+                    <h3>JUEGO LANZADO</h3>
+                    <p>La versión 1.0 de Baldur's Gate 3 ya esta disponible para descargar desde Steam y Epic Games a un precio de oferta de tiempo limitado de tan solo 40$.</p>
+                    <a href="">Ver más</a>
+            </article>
+
+        <div>
+            <article>
+                <figure>
+                    <img src="IMG/DurgeNew.gif" alt="Calle de baldurs gate cubierta de cadaveres">
+                </figure>
+                <div>
+                    <h3>Nuevo comic sobre Dark Urge</h3>
+                    <p>Nuestro engendro de Bhaal favorito ahora cuenta con un nuevo comic para revelar su oscuro pasado antes del parásito.</p>
+                    <span class="classEtiqueta">Durge</span> <span>BGCity</span>
+                </div>
+            </article>
+            <article>
+                <figure>
+                    <img src="IMG/NautiloidNew.gif" alt="Soldado desenvainando su espada bajo los tentaculos del nautiloide">
+                </figure>
+                <div>
+                    <h3>Nueva actualizacion: Nautiloide</h3>
+                    <p>La actualizacion inmediata luego de la salida oficial del juego ha traido un nuevo campo de batalla: El nautiloide destruido.</p>
+                    <span>Battleground</span>
+                </div>
+             </article>
+        </div>
+    </section>
+
+    <!--SECTION 4: GALERIA DE FOTOS-->
+    <section id="galeria">
+        <div> <!--Este div tiene el width de 1200px, para que el fondo no sea cortado-->
+            <h2 class="classTituloParrafo">Galería</h2>
+            <p class="classTituloParrafo">Screenshots, arte y gifs del juego</p>
+            <figure><img src="IMG/Durge2.webp" alt="DarkUrge"></figure>
+            <figure><img src="IMG/GaleGif.gif" alt="Gale"></figure>
+            <figure><img src="IMG/Emperor.png" alt="Emperor"></figure>
+            <figure><img src="IMG/OwlbearGif.gif" alt="Owlbear"></figure>
+            <figure><img src="IMG/Shrooms.gif" alt="MushroomsLandscape"></figure>
+            <figure><img src="IMG/shadowheart.png" alt="Shadowheart"></figure>
+            <figure><img src="IMG/astarion.jpg" alt="Astarion"></figure>
+            <figure><img src="IMG/wyll.png" alt="Wyll"></figure>
+            <figure><img src="IMG/laezel.jpg" alt="Laezel"></figure>
+            <figure><img src="IMG/Karlach2.png" alt="Karlach"></figure>
+            <figure><img src="IMG/yurgir.jpg" alt="Yurgir"></figure>
+            <figure><img src="IMG/RaphaelLeft.png" alt="RaphaelLeft"></figure>
+            <figure><img src="IMG/RaphaelRight.png" alt="RaphaelRight"></figure>
+        </div>
+    </section>
+
+    <!--SECTION 5: FORM-->
+    <section id="contacto">
+        <h2 class="classTituloParrafo">Contacto</h2>
+        <p class="classTituloParrafo">Para subscripciones/negocios/feedback completar el siguiente formulario</p>
+        
+            <form action="#" method="post">
+                <fieldset>
+                    <label for="Nombre">Nombre</label>
+                    <input name="Nombre" type="text" id="Nombre" placeholder="Ingrese su nombre" required>
+                    <label for="Celular">Celular</label>
+                    <input name="Celular" type="number" id="Celular" placeholder="Ingrese su nro de celular" required>
+                </fieldset>
+                <fieldset>
+                    <label for="Apellido">Apellido</label>
+                    <input name="Apellido" type="text" id="Apellido" placeholder="Ingrese su apellido" required>
+                    <label for="NombrePais">País</label>
+                    <select name="NombrePais" id="NombrePais">
+                        <option value="-1" disabled selected>Seleccione su país</option>
+                        <optgroup label="América del Sur">
+                            <option value="UY">Uruguay</option>
+                            <option value="BR">Brasil</option>
+                            <option value="ARG">Argentina</option>
+                        </optgroup>
+                        <optgroup label="Europa">
+                            <option value="ES">España</option>
+                            <option value="GR">Grecia</option>
+                            <option value="FR">Francia</option>
+                            <option value="IT">Italia</option>
+                        </optgroup>
+                        <optgroup label="África">
+                            <option value="EG">Egipto</option>
+                            <option value="ZA">Sudáfrica</option>
+                            <option value="NG">Nigeria</option>
+                        </optgroup>
+                        <optgroup label="Asia">
+                            <option value="JP">Japón</option>
+                            <option value="CN">China</option>
+                            <option value="IN">India</option>
+                        </optgroup>
+                        <optgroup label="Oceanía">
+                            <option value="AU">Australia</option>
+                            <option value="NZ">Nueva Zelanda</option>
+                            <option value="FJ">Fiyi</option>
+                        </optgroup>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <label for="Comentarios">Comentarios</label>
+                    <textarea rows="" cols="" name="Comentarios" id="Comentarios" placeholder="Ingrese comentario/feedback/proposicion" required></textarea>
+                
+                </fieldset>
+                <input class="classBoton classBotonSection" type="submit" value="ENVIAR">
+            </form>
+      
+        
+            
+    <table>
+        <caption>MEGA MARATON DE EVENTOS</caption>
+        <thead>
+            <tr>
+                <th rowspan="2">Fecha</th>
+                <th rowspan="2">Hora</th>
+                <th colspan="2">Agenda del Evento</th>
+            </tr>
+            <tr>
+                <th>Evento</th>
+                <th>Descripción</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td id="IdTdTFoot" colspan="4">LOS ESPERAMOS</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>17/11</td>
+                <td>10:00 AM</td>
+                <td>Registro y fiesta de inauguración</td>
+                <td>Registro y distribución de identificaciones, fiesta de inauguración</td>
+            </tr>
+            <tr>
+                <td>18/11</td>
+                <td>11:00 AM</td>
+                <td rowspan="3">Muestras de developing</td>
+                <td>Muestras de Desarrollo</td>
+            </tr>
+            <tr>
+                <td>18/11</td>
+                <td>12:00 PM</td>
+                <td>Muestras de Diseño</td>
+            </tr>
+            <tr>
+                <td>18/11</td>
+                <td>13:00 PM</td>
+                <td>Muestras de Historia descartada del Juego</td>
+            </tr>
+            <tr>
+                <td>19/11</td>
+                <td>11:00 AM</td>
+                <td>Raid</td>
+                <td>Una raid disponible solo para los participantes registrados</td>
+            </tr>
+            <tr>
+                <td>20/11</td>
+                <td>11:00 AM</td>
+                <td>Concurso de Cosplay</td>
+                <td>Los fans muestran sus mejores trajes inspirados en el juego</td>
+            </tr>
+            <tr>
+                <td>21/11</td>
+                <td>11:00 AM</td>
+                <td rowspan="2">Sesiones de Juego</td>
+                <td>SPEEDRUN de Moonrise Towers</td>
+            </tr>
+            <tr>
+                <td>22/11</td>
+                <td>11:00 AM</td>
+                <td>Juegos de mesa (dungeons and dragons)</td>
+            </tr>
+            <tr>
+                <td>23/11</td>
+                <td>9:30 PM</td>
+                <td>Clausura</td>
+                <td>Palabras de despedida y velada final</td>
+            </tr>
+        </tbody>
+    </table>
+
+    </section>
+
+</main>
+
+
+
+<!--FOOTER-->
+<footer>
+    <p><small>© 2023 Club de Fans - Creado por <strong>Gastón Varela</strong></small></p>
+    <nav>
+        <ul>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
+    </nav>
+
+    <figure>
+        <a href="#inicio"><img src="IMG/arrow.png" alt=""></a>
+    </figure>
+</footer>
+</body>
+</html>

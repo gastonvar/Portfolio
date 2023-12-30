@@ -1,0 +1,97 @@
+/*
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ESPECIFICACIONES
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+TAMAÑOS
+H1 – 70px
+H2 – 40px
+Enlaces – 20px
+*/
+
+:root{
+    --colorRojo:#eb1737;
+    --colorCeleste:#006491;
+}
+
+@font-face{
+    font-family: Bebas;
+    src:url(/fonts/bebas.ttf);
+}
+h1,h2,a{
+    font-family: Bebas;
+}
+h1, a{
+    color: white;
+}
+h1{
+    font-size: 70px;
+
+}
+h2{
+    font-size: 40px;
+
+}
+a{
+    font-size: 20px;
+}
+
+/*HEADER*/
+header nav{
+    background-color: var(--colorRojo);
+}
+
+header nav ul li a{
+    color: white;
+}
+
+/*SECTION I LOVE PIZZA*/
+section:nth-of-type(1){
+    background-color: var(--colorCeleste);
+}
+
+span{
+    color: var(--colorRojo);
+}
+
+/*SECTION ARTICULOS*/
+section:nth-of-type(2) a{
+    background-color: var(--colorRojo);
+}
+
+/*SECTION MMM QUE SABOR*/
+section:nth-of-type(3){
+    background-image: url(/img/fondo.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/*SECTION NUESTRAS TIENDAS*/
+section:nth-of-type(4){
+    background-color: var(--colorRojo);
+}
+section:nth-of-type(4) h2, section:nth-of-type(4) figcaption{
+    color: white;
+}
+
+/*SECTION FORM*/
+section:nth-of-type(5) input, select, textarea, section:nth-of-type(5) img{
+    border: 4px solid var(--colorCeleste);
+}
+section:nth-of-type(5) input[type="submit"]{
+    background-color: var(--colorCeleste);
+    color: white;
+}
+
+/*FOOTER*/
+footer{
+    background-color: var(--colorRojo);
+}
+footer p{
+    color: white;
+}
+
+/*CLASES BOOTSTRAP*/
+.img-fluid{
+    width: 100%;
+}

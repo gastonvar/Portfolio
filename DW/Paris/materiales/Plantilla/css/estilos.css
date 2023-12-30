@@ -1,0 +1,100 @@
+/* FUENTES */
+@font-face {
+    font-family: Titulos;
+    src: url("../fonts/Yellow.ttf");
+}
+
+@font-face {
+    font-family: Textos;
+    src: url("../fonts/Montserrat.ttf");
+}
+
+/* ESPECIFICACIONES 
+Color base: #F9F2E0
+H1 tamaño 4em y fuente TITULOS
+H2 tamaño 2em y fuente Textos
+P tamaño 1em y fuente Textos
+Todo el resto tiene fuente Textos
+
+TAMAÑO SECCION 1 70vh
+
+
+*/
+
+/* COMIENZA CSS DEL SITIO */
+
+:root{
+    --colorBase: #F9F2E0;
+}
+
+h1{
+    font-size: 4em;
+    font-family: Titulos;
+}
+h2{
+    font-size: 2em;
+    font-family: Textos;
+}
+
+p, a{
+    font-family: Textos;
+}
+
+
+/*HEADER*/
+header{
+    background-color: var(--colorBase);
+}
+
+header nav ul li a{
+    color: black;
+}
+
+/*SECCION 1*/
+section:nth-of-type(1){
+    background-image: url(/img/header.jpeg);
+    height: 70vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*SECCION PARIS EN FOTOS*/
+
+section:nth-of-type(2) figure{
+    position: relative;
+}
+
+section:nth-of-type(2) figcaption{
+    position: absolute;
+    bottom: 15px;
+    left: 25px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+/*SECCION FORM*/
+section:nth-of-type(3){
+    background-image: url(/img/pattern.jpg);
+}
+
+section:nth-of-type(3) h1{
+    color:white;
+    background-color: black;
+}
+
+section:nth-of-type(3) form input{
+    border: 2px solid black;
+}
+
+/*SECCION LUGARES*/
+section:nth-of-type(4){
+    border-bottom: 6px solid var(--colorBase);
+}
+section:nth-of-type(4) a, section:nth-of-type(5) a, footer a{
+    color: black;
+    border:2px solid black;
+}
+
+/*footer*/
+footer{
+    background-color: var(--colorBase);
+}

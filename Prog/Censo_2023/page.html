@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matías Romero , Gastón Varela">
+    <link rel="stylesheet" href="style/pageStyle.css">
+    <title>Página de Censo</title>
+</head>
+
+<body>
+    <!--El siguiente div ("divInicio") contiene la interfaz con la que interactua el censista.-->
+    <div id="divInicio">
+        <div id="divInicio--divBienvenida" class="centerDiv">
+            <h2 class="centerContent">Bienvenido al sistema de censo 2023</h2>
+            <p class="centerContent">Por favor seleccione su tipo de usuario:</p>
+            <button id="divBienvenida--btnInvitado" >Invitado</button>
+            <button id="divBienvenida--btnCensista" >Censista</button>
+        </div>
+
+        <div id="divInicio--divVerificarInvitado" class="centerDiv">
+            <h2>Ingreso Invitado</h2>
+            <div class="centerContent">
+                <div>
+                    <fieldset>
+                        <p>
+                            <label for="divVerificarInvitado--txtCI">Ingrese su C.I : </label><input type="text"
+                                id="divVerificarInvitado--txtCI" placeholder="1.111.111-1">
+                        </p>
+                        <br>
+                        <button id="divVerificarInvitado--btnIngresar">Ingresar</button>
+                        <button id="divVerificarInvitado--btnEstadisticas">Ver estadisticas</button>
+                    </fieldset>
+                    <p id="divVerificarInvitado--pEstadisticas"></p>
+                    <p id="divVerificarInvitado--pError" class="error"></p>
+                </div>
+            </div>
+            <hr>
+            <button id="verificarInvitado--btnRegresar">Regresar</button>
+        </div>
+
+        <div id="divInicio--divInicioCensista" class="centerDiv">
+            <h2>Ingreso Censista</h2>
+            <button id="divInicioCensista--btnLogin">Iniciar Sesión</button>
+            <button id="divInicioCensista--btnRegistro">Registrarse</button>
+            <hr>
+            <button id="divInicioCensista--btnRegresar">Regresar</button>
+        </div>
+
+        <div id="divInicio--divLoginCensista" class="centerDiv">
+            <h2>Ingreso Censista</h2>
+            <div class="centerContent">
+                <div>
+                    <fieldset>
+                        <p>
+                            <label for="divLoginCensista--txtUsuario">Usuario: </label><input type="text"
+                                id="divLoginCensista--txtUsuario" placeholder="usuario">
+                        </p>
+                        <p>
+                            <label for="divLoginCensista--txtContrasena">Contraseña: </label><input type="password"
+                                id="divLoginCensista--txtContrasena" placeholder="contraseña">
+                        </p>
+                        <br>
+                        <button id="divLoginCensista--btnIngresar">Ingresar</button>
+                    </fieldset>
+                    <p id="divLoginCensista--pError" class="error"></p>
+                </div>
+            </div>
+            <hr>
+            <button id="loginCensista--btnRegresar">Regresar</button>
+        </div>
+
+        <div id="divInicio--divRegistroCensista" class="centerDiv">
+            <h2>Registro Censista</h2>
+            <div class="centerContent">
+                <div>
+                    <fieldset>
+                        <p>
+                            <label for="divRegistroCensista--txtNombre">Nombre: </label><input type="text"
+                                id="divRegistroCensista--txtNombre" placeholder="Nombre">
+                        </p>
+                        <p>
+                            <label for="divRegistroCensista--txtUsuario">Usuario: </label><input type="text"
+                                id="divRegistroCensista--txtUsuario" placeholder="usuario">
+                        </p>
+                        <p>
+                            <label for="divRegistroCensista--txtContrasena">Contraseña: </label><input type="password"
+                                id="divRegistroCensista--txtContrasena" placeholder="contraseña">
+                        </p>
+                        <p>
+                            <label for="divRegistroCensista--txtRepContrasena">Repetir Contraseña: </label><input
+                                type="password" id="divRegistroCensista--txtRepContrasena"
+                                placeholder="repetir contraseña">
+                        </p>
+                        <p id="divRegistroCensista--pRequerimientosContrasena" class="requerimiento"> La contraseña
+                            deberá tener un mínimo de
+                            5 caracteres, contando con al menos una mayúscula,
+                            una minúscula y un número.</p>
+                        <br>
+                        <button id="divRegistroCensista--btnRegistrar">Registrarse</button>
+                    </fieldset>
+                    <p id="divRegistroCensista--pError" class="error"></p>
+                </div>
+            </div>
+            <hr>
+            <button id="divRegistroCensista--btnRegresar">Regresar</button>
+        </div>
+    </div>
+
+
+    <!--El siguiente div ("divInvitado") contiene la interfaz con la que interactua el invitado.-->
+    <div id="divInterfazInvitado">
+        <div id="divInterfazInvitado--divOpcionesInvitado">
+            <nav>
+                <h1>Invitado</h1>
+                <button id="divOpcionesInvitado--btnPrecompletarCenso">Formulario de Censo</button>
+                <button id="divOpcionesInvitado--btnEstadisticas">Estadísticas</button>
+                <button id="divOpcionesInvitado--btnCerrarSesion">Cerrar Sesión</button>
+                <hr>
+                <br>
+            </nav>
+        </div>
+
+        <div id="divInterfazInvitado--divPrecompletarCenso">
+            <h2>Formulario de Censo 2023</h2>
+            <p class="requerimiento">(*Todos los campos son obligatorios*)</p>
+            <p id="divPrecompletarCenso--pErrorPrecompletarCenso" class="error"></p><br><br>
+            <label for="divPrecompletarCenso--txtNombre">Nombre: </label><input type="text"
+                id="divPrecompletarCenso--txtNombre" placeholder="Nombre" /><br><br>
+            <label for="divPrecompletarCenso--txtApellido">Apellido: </label><input type="text"
+                id="divPrecompletarCenso--txtApellido" placeholder="apellido" /><br><br>
+            <label for="divPrecompletarCenso--txtEdad">Edad: </label><input type="text"
+                id="divPrecompletarCenso--txtEdad" placeholder="edad" /><br><br>
+            <label for="divPrecompletarCenso--txtCedula">C.I: </label><input type="text"
+                id="divPrecompletarCenso--txtCedula" placeholder="1.111.111-1" /><br><br>
+            <label>Departamento de residencia: </label>
+            <select id="divPrecompletarCenso--slcDepartamento">
+                <option value="-1">Seleccione su departamento...</option>
+            </select><br><br>
+            <label for="divPrecompletarCenso--slcOcupacion">Ocupación: </label>
+            <select id="divPrecompletarCenso--slcOcupacion">
+                <option value="-1">Seleccione según corresponda</option>
+                <option value="dependiente">Dependiente</option>
+                <option value="independiente">Independiente</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="No trabaja">No trabaja</option>
+            </select>
+            <br>
+            <br>
+            <button id="divPrecompletarCenso--btnGuardar">Guardar</button>
+            <button id="divPrecompletarCenso--btnEliminar">Eliminar</button>
+            <hr>
+        </div>
+
+        <div id="divInterfazInvitado--divEstadisticas">
+            <h2>Estadísticas del Censo</h2>
+            <p id="divEstadisticas--pEstadisticas"></p>
+            <hr>
+        </div>
+    </div>
+
+    <!--El siguiente div ("divCensista") contiene la interfaz con la que interactua el censista.-->
+    <div id="divInterfazCensista">
+        <div id="divInterfazCensista--divOpcionesCensista">
+            <h1>Censista</h1>
+            <p id="divOpcionesCensista--usuarioLogueado"></p>
+            <button id="divOpcionesCensista--btnCompletarCenso">Formulario de Censo</button>
+            <button id="divOpcionesCensista--btnPreCompletados">Mis Asignados</button>
+            <button id="divOpcionesCensista--btnEstadisticas">Estadísticas</button>
+            <button id="divOpcionesCensista--btnCerrarSesion">Cerrar Sesión</button>
+            <hr>
+            <br>
+        </div>
+
+        <div id="divInterfazCensista--divCompletarCenso">
+            <h2>Formulario de Censo 2023</h2>
+            <p class="requerimiento">(*Todos los campos son obligatorios*)</p>
+            <p id="divCompletarCenso--pErrorCompletarCenso" class="error"></p>
+            <label for="divCompletarCenso--txtCedula">C.I: </label><input type="text" id="divCompletarCenso--txtCedula"
+                placeholder="1.111.111-1" />
+                <button id="divCompletarCenso--btnBuscarCedula">Buscar</button>
+                <br><br>
+            <label for="divCompletarCenso--txtNombre">Nombre: </label><input type="text"
+                id="divCompletarCenso--txtNombre" placeholder="nombre" /><br><br>
+            <label for="divCompletarCenso--txtApellido">Apellido: </label><input type="text"
+                id="divCompletarCenso--txtApellido" placeholder="apellido" /><br><br>
+            <label for="divCompletarCenso--txtEdad">Edad: </label><input type="text" id="divCompletarCenso--txtEdad"
+                placeholder="edad" /><br><br>
+            <label>Departamento de residencia: </label>
+            <select id="divCompletarCenso--slcDepartamentoB">
+                <option value="-1">Seleccione su departamento...</option>
+            </select><br><br>
+            <label for="divCompletarCenso--slcOcupacion">Ocupación: </label>
+            <select id="divCompletarCenso--slcOcupacion">
+                <option value="-1">Seleccione según corresponda</option>
+                <option value="dependiente">Dependiente</option>
+                <option value="independiente">Independiente</option>
+                <option value="estudiante">Estudiante</option>
+                <option value="No trabaja">No trabaja</option>
+            </select>
+            <br>
+            <br>
+            <button id="divCompletarCenso--btnGuardar">Guardar</button>
+            <hr>
+        </div>
+
+        <div id="divInterfazCensista--divValidarPrecargas">
+            <h2>Mis Asignados</h2>
+            <p id="divValidarPrecargas--pErrorslcValidar" class="error"></p> 
+            <label for="divValidarPrecargas--txtBuscarCedula">Mis Asignados: </label> 
+            <p id="divValidarPrecargas--pSlcMisAsignados"></p>
+            <button id="divdivValidarPrecargas--btnBuscar">Cargar</button>
+            <p id ="divValidarPrecargas--pMostrarCenso"></p>
+            <p id="divValidarPrecargas--pMostrar"></p>
+            <hr>
+            <label>Reasignar a: </label>
+            <p id="divValidarPrecargas--pErrorReasignar"></p>
+            <p id="divValidarPrecargas--pSlcReasignar"></p>
+            <button id="divValidarPrecargas--btnReasignar">Reasignar</button><br>
+            <hr>
+        </div>
+
+        <div id="divInterfazCensista--divVerEstadisticas">
+            <h2>Estadísticas del Censo</h2>
+            <hr>
+            <p id="divVerEstadisticas--pEstadisticas1"></p>
+            <hr>
+            <p id="divVerEstadisticas--pEstadisticas2"></p>
+            <hr>
+            <p id="divVerEstadisticas--pEstadisticas3"></p>
+            <hr>
+            <p id="divVerEstadisticas--pEstadisticas4"></p>
+            <p id="divVerEstadisticas--pFranjaEtaria"></p>
+            <button id="divVerEstadisticas--btnMostrar">Mostrar</button>
+            <hr>
+        </div>
+    </div>
+
+
+    <script src="scripts/clases.js"></script>
+    <script src="scripts/sistema.js"></script>
+    <script src="scripts/sistemaUI.js"></script>
+</body>
+
+</html>

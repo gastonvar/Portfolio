@@ -1,0 +1,54 @@
+﻿@model ClasesObligatorioP2GVDS.Miembro
+
+@{
+    ViewData["Title"] = "Registro";
+}
+
+<h1>Registro</h1>
+
+<h4>Miembro</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Registro">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label">Email (arroba ni al principio ni al final)</label>
+                <input asp-for="Email" class="form-control" required />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasenia" class="control-label">Contraseña, debe incluir una mayúscula y un número y tener longitud de al menos 5</label>
+                <input asp-for="Contrasenia" class="form-control" type="password" required />
+                <span asp-validation-for="Contrasenia" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label">Nombre, debe empezar con mayúscula</label>
+                <input asp-for="Nombre" class="form-control" required />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label">Apellido, debe empezar con mayúscula</label>
+                <input asp-for="Apellido" class="form-control" required />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FechaNacimiento" class="control-label"></label>
+                <input type="date" asp-for="FechaNacimiento" class="form-control" required />
+                <span asp-validation-for="FechaNacimiento" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Registrarse" class="btn btn-primary" />
+            </div>
+        </form>
+        <p>@ViewBag.msg</p>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" asp-controller="Home">Regresar</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

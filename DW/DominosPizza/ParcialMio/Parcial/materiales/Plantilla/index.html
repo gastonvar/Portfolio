@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>PLANTILLA V5.2.2</title>
+
+    <!-- el start template lo pueden encontrar en .... -->
+    <!-- https://getbootstrap.com/docs/5.2/getting-started/introduction/ -->
+
+    <!-- ENLACE A HOJAS ESTILOS... -->
+
+    <!-- 1 - hoja de bootstrap - NO SE EDITA!!! -->
+    <!-- ENTENDIBLE -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <!-- COMPILADA -->
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
+
+    <!-- 2 - mi propia hoja de estilos - SI SE EDITA - "pisar y sobreescribir la de 
+    bootstrap" -->
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- ENLACE A JS -->
+    <!-- compilado... -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- abierto -->
+    <!-- <script src="js/bootstrap.bundle.js"></script> -->
+
+
+</head>
+<body>
+<!--REGLA BOOTSTRAP-->
+<div class="container-fluid">
+        <div class="row">
+            <p class="col-12 d-sm-none">Resolucion: <strong>XS</strong></p>
+            <p class="col-sm-12 d-none d-sm-block d-md-none">Resolucion: <strong>SM</strong></p>
+            <p class="col-md-12 d-none d-md-block d-lg-none">Resolucion: <strong>MD</strong></p>
+            <p class="col-lg-12 d-none d-lg-block d-xl-none">Resolucion: <strong>LG</strong></p>
+            <p class="col-xl-12 d-none d-xl-block d-xxl-none">Resolucion: <strong>XL</strong></p>
+            <p class="col-xxl-12 d-none d-xxl-block">Resolucion: <strong>XXL</strong></p>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <header class="row justify-content-center text-center">
+            <figure class="col-8">
+                <img src="/img/logo.jpg" alt="" class="img-fluid w-50">
+            </figure>
+            <nav class="col-10">
+                <ul class="list-unstyled list-inline m-0">
+                    <li class="list-inline-item px-3 py-2"><a href="" class="text-decoration-none">Pizzas</a></li>
+                    <li class="list-inline-item px-3 py-2"><a href="" class="text-decoration-none">Tiendas</a></li>
+                    <li class="list-inline-item px-3 py-2"><a href="" class="text-decoration-none">Pedidos</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <main class="container-fluid mt-5">
+        <!--SECCION I LOVE PIZZA-->
+        <section class="row">
+            <h1 class="text-center col-12 py-4 m-0">I <span>love</span> pizza</h1>
+        </section>
+
+        <!--SECCION ARTICULOS-->
+        <section class="row justify-content-center">
+            <h2 class="col-12 text-center my-3">Destacados <span>del mes</span></h2>
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                <figure>
+                    <img src="/img/pizza-americana.jpeg" alt="" class="img-fluid">
+                </figure>
+                <a href="" class="d-block w-100 text-decoration-none text-center py-2">PEDÍ AHORA</a>
+                <h3 class="mt-2">Pizza Americana</h3>
+                <p>
+                    Base de Salsa & Cheese, Panceta, Pepperoni, Cebolla, Cheddar y Salsa BBQ.
+                </p>
+            </article>
+            <article class="col-lg-3 col-md-4 col-sm-6 col-12 p-2">
+                <figure>
+                    <img src="/img/pizza-hawaiana.jpeg" alt="" class="img-fluid">
+                </figure>
+                <a href="" class="d-block w-100 text-decoration-none text-center py-2">PEDÍ AHORA</a>
+                <h3 class="mt-2">Pizza Hawaiana</h3>
+                <p>
+                    Base de Salsa & Cheese, Anan‡, Pollo, Panceta y Salsa BBQ.
+                </p>
+            </article>
+            <article class="col-lg-3 col-md-4 d-sm-none d-md-block col-12 p-2">
+                <figure>
+                    <img src="/img/pizza-pecado.jpeg" alt="" class="img-fluid">
+                </figure>
+                <a href="" class="d-block w-100 text-decoration-none text-center py-2">PEDÍ AHORA</a>
+                <h3 class="mt-2">Pizza Pecado Carnal</h3>
+                <p>
+                    Base de Salsa & Cheese, Pepperoni, Pollo, Panceta y Jam—n
+                </p>
+            </article>
+        </section>
+
+        <!--SECCION MMM QUE SABOR-->
+        <section class="row">
+            <h1 class="text-center col-12 py-5 m-0 d-none d-md-block">mmm... ¡qué sabor!</h1>
+        </section>
+
+        <!--SECCION NUESTRAS TIENDAS-->
+        <section class="row justify-content-center">
+            <h2 class="text-center col-12 py-3 m-0">NUESTRAS TIENDAS</h2>
+            <figure class="col-md-3 col-6">
+                <img src="/img/local-1.jpeg" alt="" class="img-fluid">
+                <figcaption>Local en Dinamarca</figcaption>
+            </figure>
+            <figure class="col-md-3 col-6">
+                <img src="/img/local-2.jpeg" alt="" class="img-fluid">
+                <figcaption>Local en China</figcaption>
+            </figure>
+            <figure class="col-md-3 col-12">
+                <img src="/img/local-3.jpeg" alt="" class="img-fluid">
+                <figcaption>Local en Singapur</figcaption>
+            </figure>
+        </section>
+
+        <!--SECCION FORM-->
+        <section class="row justify-content-center my-5">
+            <h2 class="text-center">hacenos <span>tu pedido</span></h2>
+            <figure class="col-lg-4 d-none d-lg-block">
+                <img src="/img/local.jpg" alt="" class="img-fluid">
+            </figure>
+            <form action="#" class="col-lg-4 col-md-6 col-10">
+                <label for="">Nombre *</label>
+                <input type="text" class=" d-block w-100 p-2 mb-2" placeholder="Ej. Lucas Perez">
+                <label for="">E-mail *</label>
+                <input type="text" class=" d-block w-100 p-2 mb-2" placeholder="Ej. Lucas Perez">
+                <label for="">Sabor</label>
+                <select name="" id="" class="d-block w-100 p-2 mb-2">
+                    <option value="">Americana</option>
+                    <option value="">Hawaiana</option>
+                    <option value="">Pecado Carnal</option>
+                </select>
+                <label for="">Comentarios del pedido</label>
+                <textarea name="" id="" cols="" rows="" class="d-block w-100 mb-2" placeholder="Cortada en 8, etc."></textarea>
+                <input type="checkbox"><label for="" class="ms-1">Acepto brindar mis datos para sorteos</label>
+                <input type="submit" class="d-block w-50 p-2 mt-3">
+            </form>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="row justify-content-center text-center mt-5">
+            <p class="col-12 p-3">Sitio creado por: <strong>Gastón Varela</strong></p>
+            <nav>
+                <ul class="list-unstyled list-inline">
+                    <li class="list-inline-item"><a href="">
+                        <img src="/img/f.png" alt="" class="img-fluid">
+                    </a></li>
+                    <li class="list-inline-item"><a href="">
+                        <img src="/img/t.png" alt="" class="img-fluid">
+                    </a></li>
+                    <li class="list-inline-item"><a href="">
+                        <img src="/img/i.png" alt="" class="img-fluid">
+                    </a></li>
+                </ul>
+            </nav>
+        </footer>
+    </main>
+    <!--
+
+
+
+
+mmmm.. Áque sabor!
+
+hacenos tu pedido
+
+Nombre * 
+Ej. Lucas Perez
+ E-mail * 
+Ej. Lucas Perez
+ Sabor 
+Americana
+ Comentarios del pedido 
+Cortada en 8, etc.
+  Acepto brindar mis datos para sorteos 
+
+
+Sitio creado por: Nombre Alumno
+    -->
+</body>
+
+
+</html>

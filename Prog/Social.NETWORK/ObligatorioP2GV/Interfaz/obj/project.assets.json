@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    "net7.0": {
+      "ClasesObligatorioP2GVDS/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/ClasesObligatorioP2GVDS.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ClasesObligatorioP2GVDS.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ClasesObligatorioP2GVDS/1.0.0": {
+      "type": "project",
+      "path": "../ClasesObligatorioP2GVDS/ClasesObligatorioP2GVDS.csproj",
+      "msbuildProject": "../ClasesObligatorioP2GVDS/ClasesObligatorioP2GVDS.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "ClasesObligatorioP2GVDS >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gasva\\.nuget\\packages\\": {},
+    "D:\\Archivos De Programa\\visualstudioenterprise\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\gasva\\Desktop\\ATI\\SS-2023\\Programación 2\\Obligatorio\\Obligatorio2\\20231003-ATI-316838-M2A\\ObligatorioP2GV\\Interfaz\\Interfaz.csproj",
+      "projectName": "Interfaz",
+      "projectPath": "C:\\Users\\gasva\\Desktop\\ATI\\SS-2023\\Programación 2\\Obligatorio\\Obligatorio2\\20231003-ATI-316838-M2A\\ObligatorioP2GV\\Interfaz\\Interfaz.csproj",
+      "packagesPath": "C:\\Users\\gasva\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gasva\\Desktop\\ATI\\SS-2023\\Programación 2\\Obligatorio\\Obligatorio2\\20231003-ATI-316838-M2A\\ObligatorioP2GV\\Interfaz\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\Archivos De Programa\\visualstudioenterprise\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\gasva\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net7.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "projectReferences": {
+            "C:\\Users\\gasva\\Desktop\\ATI\\SS-2023\\Programación 2\\Obligatorio\\Obligatorio2\\20231003-ATI-316838-M2A\\ObligatorioP2GV\\ClasesObligatorioP2GVDS\\ClasesObligatorioP2GVDS.csproj": {
+              "projectPath": "C:\\Users\\gasva\\Desktop\\ATI\\SS-2023\\Programación 2\\Obligatorio\\Obligatorio2\\20231003-ATI-316838-M2A\\ObligatorioP2GV\\ClasesObligatorioP2GVDS\\ClasesObligatorioP2GVDS.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net7.0": {
+        "targetAlias": "net7.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

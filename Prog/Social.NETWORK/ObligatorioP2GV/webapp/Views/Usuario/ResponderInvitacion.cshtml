@@ -1,0 +1,58 @@
+﻿@model IEnumerable<ClasesObligatorioP2GVDS.Invitacion>
+
+@{
+    ViewData["Title"] = "ResponderInvitacion";
+}
+
+<h1>Invitaciones recibidas</h1>
+<h1>@TempData["msgInvitacion"]</h1>
+
+@if (Model.Count() > 0)
+{
+
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Solicitante.Nombre)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Solicitante.Apellido)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Estado)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Solicitante.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Solicitante.Apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Estado)
+                    </td>
+                    @if (item.Estado == ClasesObligatorioP2GVDS.Estado.PENDIENTE_APROBACION)
+                    {
+                        <td>
+                            @Html.ActionLink("Aceptar", "AceptarInvitacion", new {  id=item.Solicitante.Id  }) |
+                            @Html.ActionLink("Rechazar", "RechazarInvitacion", new {  id=item.Solicitante.Id })
+                        </td>
+                    }
+
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <h1>NO HAY INVITACIONES PENDIENTES</h1>
+}
