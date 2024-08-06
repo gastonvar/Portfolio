@@ -1,0 +1,71 @@
+﻿@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Clientes.ClienteListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<form method="post">
+    <h4>Deje ambos campos vacios para reiniciar la lista</h4>
+    <label>Texto a filtrar por razon social</label>
+    <input name="txt" type="text" placeholder="Razón Social"/><br />
+    <label>Monto para filtrar</label>
+    <input name="money" type="text" placeholder="Monto de pedido"/><br />
+    <input type="submit" value="Filtrar" class="btn btn-warning"/><br />
+</form>
+<h1>Lista clientes</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RUT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Distancia)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0){
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RUT)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Calle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ciudad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Numero)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Distancia)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>

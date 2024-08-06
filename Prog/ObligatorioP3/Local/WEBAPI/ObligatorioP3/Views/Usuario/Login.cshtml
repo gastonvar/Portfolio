@@ -1,0 +1,38 @@
+﻿@model ObligatorioP3.Web.Models.UsuariosModels.UsuarioLoginModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<h4>Inicie sesion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" value="Admin@gmail.com" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasena"></label>
+                <input asp-for="Contrasena" class="form-control" value="Admin.1" type="password"/>
+                <span asp-validation-for="Contrasena" class="text-danger"></span>
+            </div>
+            <button type="submit" class="">Login</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="">Volver</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

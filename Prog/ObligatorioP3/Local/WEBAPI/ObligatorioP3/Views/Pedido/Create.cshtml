@@ -1,0 +1,99 @@
+﻿@model ObligatorioP3.Web.Models.PedidosModels.PedidoAltaModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<h4>Crear Pedido</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="articulos">Articulos: </label>
+            <select name="articulos" id="articulos">
+                @if (Model != null)
+                {
+                    @foreach (var i in Model.articulos)
+                    {
+                        if (@i.Stock > 0)
+                        {
+                            <option value="@i.Id">@i.Nombre - @i.Stock disponibles - $@i.Precio c/u</option>
+                        }
+                    }
+                }
+            </select>
+            <br />
+            <label for="cantidad">Cantidad: </label>
+            <input type="number" name="cantidad" id="cantidad" />
+        </div>
+        <button id="botonAgregar">Agregar</button>
+        <hr />
+        <p><strong>Lineas de articulos del pedido</strong></p>
+        <div>
+             @if (Model != null)
+            {
+                @if (Model.lineas != null)
+                {
+                    @foreach (var i in Model.lineas)
+                    {
+                        <p>[ @i.ArticuloListarDto.Nombre - @i.Unidades unidades. - $@(i.Unidades * i.PrecioUnitario) ]</p>
+                    }
+                }
+            }
+        </div>
+        <a asp-action="limpiar">limpiar</a>
+        <hr />
+        <form method="post">
+            <div class="form-group">
+                <label for="tipoPedido">Pedido Común: </label>
+                <input type="radio" name="tipoPedido" id="tipoPedido" value="false" checked />
+                <br />
+                <label for="tipoPedido">Pedido Express: </label>
+                <input type="radio" name="tipoPedido" id="tipoPedido" value="true"/>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="fechaEntrega">Fecha de Entrega: </label>
+                <input type="date" name="fechaEntrega" id="fechaEntrega" />
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="cliente">Cliente: </label>
+                <select name="cliente" id="cliente">
+                    @if (Model != null)
+                    {
+                        @foreach (var i in Model.clientes)
+                        {
+                            <option value="@i.Id">@i.RazonSocial</option>
+                        }
+                    }
+                </select>
+            </div>
+            <br />
+            <p>
+                <strong>Al hacer click en crear se aplicaran los impuestos correspondientes.</strong>
+            </p>
+            <div class="form-group">
+                <input type="submit" value="Crear" />
+            </div>
+            <br />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        document.getElementById('botonAgregar').onclick = function () {
+            var opcionSeleccionada = document.getElementById('articulos').value;
+            var cantidad = document.getElementById('cantidad').value;
+            window.location.href = '@Url.Action("Agregar", "Pedido")?opcionSeleccionada=' + opcionSeleccionada + '&cantidad=' + cantidad;
+        };
+    </script>
+}

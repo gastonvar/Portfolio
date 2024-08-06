@@ -1,0 +1,206 @@
+﻿@model ObligatorioP3Consumidor.Models.Movimientos.MovimientosYselectores
+@{
+    ViewData["Title"] = "Filtrar por IDs";
+}
+
+<h1>Filtrar Movimientos</h1>
+<h4>Filtros:</h4>
+<hr />
+@if(Model != null)
+{
+    <div class="row">
+        <div class="col-md-4">
+            <form method="post">
+                @{
+                    int IdArticulo = -1;
+                    int IdTipo = -1;
+                    if (ViewBag.preseleccionMov != "")
+                    {
+                        string preseleccion = ViewBag.preseleccionMov;
+                        string[] opciones = preseleccion.Split("-");
+                        IdArticulo = int.Parse(opciones[0]);
+                        IdTipo = int.Parse(opciones[1]);
+                    }
+                }
+                <div class="form-group">
+                    <label for="IdArticulo">Articulo: </label>
+                    @if (ViewBag.preseleccionMov != ""){
+                        <input type="hidden" name="IdArticulo" value="@IdArticulo" id="IdArticulo">
+                        <select name="IdArticulo" id="IdArticulo" disabled>
+                            @if (Model != null)
+                            {
+                                @foreach (var i in Model.Selectores.Articulos)
+                                {
+                                    if (i.Id == IdArticulo)
+                                    {
+                                        <option value="@i.Id" selected>@i.Nombre</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@i.Id">@i.Nombre</option>   
+                                    }
+                                }
+                            }
+                        </select>
+                    }else
+                    {
+                        <select name="IdArticulo" id="IdArticulo">
+                            @if (Model != null)
+                            {
+                                @foreach (var i in Model.Selectores.Articulos)
+                                {
+                                    <option value="@i.Id">@i.Nombre</option>
+                                }
+                            }
+                        </select>
+                    }
+                </div>
+                <hr />
+                <div class="form-group">
+                    <label for="IdTipo">Tipo de Movimiento: </label>
+                    @if (ViewBag.preseleccionMov != "")
+                    {
+                        <input type="hidden" name="IdTipo" value="@IdTipo" id="IdTipo">
+                        <select name="IdTipo" id="IdTipo" disabled>
+                            @if (Model != null)
+                            {
+                                @foreach (var i in Model.Selectores.Tipos)
+                                {
+                                    if (i.Id == IdTipo)
+                                    {
+                                        <option value="@i.Id" selected>@i.Nombre</option>
+                                    }
+                                    else
+                                    {
+                                        <option value="@i.Id">@i.Nombre</option>
+                                    }
+                                }
+                            }
+                        </select>
+                    }
+                    else
+                    {
+                        <select name="IdTipo" id="IdTipo">
+                            @if (Model != null)
+                            {
+                                @foreach (var i in Model.Selectores.Tipos)
+                                {
+                                    <option value="@i.Id">@i.Nombre</option>
+                                }
+                            }
+                        </select>
+                    }
+                </div>
+                <hr />
+                <div class="form-group">
+                    <input type="submit" asp-action="GetFiltrados" asp-route-pagina="1" asp-controller="Movimientos" value="Buscar" />
+                    <br />
+                    <a asp-action="FiltroPorArticuloYtipo" asp-controller="Movimientos">Limpiar Busqueda</a>
+                    <hr>
+                    <br/>
+                    @if(Model.Movimientos!=null && Model.Movimientos.Count() > 0)
+                    {
+                        if ((int)ViewBag.Pagina > 1)
+                        {
+                            var pag = (int)ViewBag.Pagina;
+                            pag++;
+                            <input type="submit" asp-action="GetFiltrados" asp-controller="Movimientos" asp-route-pagina=@pag value="Siguiente" />
+                            <input type="submit" asp-action="GetFiltrados" asp-controller="Movimientos" asp-route-pagina="1" value="Ir al primero">
+                        }
+                        else
+                        {
+                            var pag = (int)ViewBag.Pagina;
+                            pag++;
+                            <input type="submit" asp-action="GetFiltrados" asp-controller="Movimientos" asp-route-pagina=@pag value="Siguiente" />
+                        }
+                    }else
+                    {
+                        if (Model.Movimientos != null && Model.Movimientos.Count() == 0)
+                        {
+                            <input type="submit" asp-action="GetFiltrados" asp-controller="Movimientos" asp-route-pagina="1" value="Ir al primero">
+                        }
+                    }
+                </div>
+                <br />
+                <br />
+            </form>
+        </div>
+    </div>
+    if(Model.Movimientos!=null && Model.Movimientos.Count() > 0)
+    {
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        Id
+                    </th>
+                    <th>
+                        Fecha
+                    </th>
+                    <th>
+                        Cantidad
+                    </th>
+                    <th>
+                        IdArticulo
+                    </th>
+                    <th>
+                        IdUsuario
+                    </th>
+                    <th>
+                        IdTipoMovmiento
+                    </th>
+                    <th>
+                        NombreTipoMovimiento
+                    </th>
+                    <th>
+                        Aumento
+                    </th>
+                    <th>
+                        Coeficiente
+                    </th>
+                    <th>
+                        Unidades desplazadas
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Movimientos)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Id)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Fecha)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Cantidad)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdArticulo)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdUsuario)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IdTipoMovmiento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.NombreTipoMovimiento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Aumento)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Coeficiente)
+                        </td>
+                        <td>
+                            @(item.Coeficiente * item.Cantidad)
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+}
+

@@ -1,0 +1,83 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ObligatorioP3Consumidor
+build_property.RootNamespace = ObligatorioP3Consumidor
+build_property.ProjectDir = C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\MVC\ObligatorioP3ConsumidorSolucion\ObligatorioP3Consumidor\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\MVC\ObligatorioP3ConsumidorSolucion\ObligatorioP3Consumidor
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Articulos/FiltrarArticulosPorFechaMovimiento.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9zXEZpbHRyYXJBcnRpY3Vsb3NQb3JGZWNoYU1vdmltaWVudG8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Articulos/Listar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXJ0aWN1bG9zXExpc3Rhci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Movimientos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Movimientos/FiltroPorArticuloYtipo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NcRmlsdHJvUG9yQXJ0aWN1bG9ZdGlwby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Movimientos/ListarAgrupados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW92aW1pZW50b3NcTGlzdGFyQWdydXBhZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Shared/_Mensajes.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9NZW5zYWplcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/gasva/Desktop/Archivos del portfolio/Prog/ObligatorioP3/Local/MVC/ObligatorioP3ConsumidorSolucion/ObligatorioP3Consumidor/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-0yrf1vjhp1

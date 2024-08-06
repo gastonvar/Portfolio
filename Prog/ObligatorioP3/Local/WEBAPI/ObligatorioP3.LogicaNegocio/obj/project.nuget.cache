@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "5WfPNXnV7FkulFMfcPn7RxBUZrzfcTNzGpxMcBd5SEPY+F5R2uKhIr2vIWQ9Mu2IK8zdwkvK+5eGtO/kJXIWaA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\gasva\\Desktop\\Archivos del portfolio\\Prog\\ObligatorioP3\\Local\\WEBAPI\\ObligatorioP3.LogicaNegocio\\ObligatorioP3.LogicaNegocio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\gasva\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\8.0.3\\microsoft.entityframeworkcore.abstractions.8.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}

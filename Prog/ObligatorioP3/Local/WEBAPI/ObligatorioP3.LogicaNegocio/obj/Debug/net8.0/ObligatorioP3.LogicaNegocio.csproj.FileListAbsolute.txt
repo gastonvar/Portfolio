@@ -1,0 +1,133 @@
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.deps.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.sourcelink.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\refint\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaNegocio\obj\Debug\net8.0\ref\ObligatorioP3.LogicaNegocio.dll

@@ -1,0 +1,32 @@
+﻿@model IEnumerable<ObligatorioP3Consumidor.Models.Movimientos.MovimientoListarAgrupadoDTO>
+
+@{
+    ViewData["Title"] = "ovimientos por Año";
+}
+
+<h1>Movimientos por Año</h1>
+
+@if (Model != null)
+{
+    <div class="row">
+        <div class="col-md-4">
+            @foreach (var i in Model)
+            {
+                <hr />
+                <div>
+                    <div style="font-size : 25px;"><strong>Año @i.Ano </strong></div>
+                    <br>
+                    @foreach (var e in i.MovimientoCantidad)
+                    {
+                        <strong style="font-size : 15px;">@e.Nombre = </strong>
+
+                        @e.Cantidad
+                        <br>
+                    }
+                    <strong style="font-size : 15px;">Total año = @i.Total</strong>
+                </div>
+                <hr />
+            }
+        </div>
+    </div>
+}

@@ -1,0 +1,8 @@
+Url a probar:
+https://localhost:7072/Movimientos/Create
+
+https://localhost:7072/Movimientos/FiltroPorArticuloYtipo
+
+https://localhost:7072/Movimientos/ListarAgrupados
+
+https://localhost:7072/Articulos/FiltrarArticulosPorFechaMovimiento

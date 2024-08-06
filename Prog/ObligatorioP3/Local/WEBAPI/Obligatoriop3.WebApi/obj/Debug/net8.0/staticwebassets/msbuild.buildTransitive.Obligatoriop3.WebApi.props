@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\Obligatoriop3.WebApi.props" />
+</Project>

@@ -1,0 +1,188 @@
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.deps.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.sourcelink.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\Obligato.E71EA9E5.Up2Date
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\refint\ObligatorioP3.LogicaAplicacion.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ObligatorioP3.LogicaAplicacion.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.LogicaAplicacion\obj\Debug\net8.0\ref\ObligatorioP3.LogicaAplicacion.dll

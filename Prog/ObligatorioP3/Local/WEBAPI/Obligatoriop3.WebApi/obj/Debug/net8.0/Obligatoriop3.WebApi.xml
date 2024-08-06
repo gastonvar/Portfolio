@@ -1,0 +1,140 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Obligatoriop3.WebApi</name>
+    </assembly>
+    <members>
+        <member name="T:Obligatoriop3.WebApi.Controllers.ArticuloController">
+            <summary>Controller para manejar las operaciones con articulos</summary>
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.ArticuloController.Get">
+            <summary>
+            Get de todos los articulos
+            </summary>
+            <returns>Si no encuentra ninguno devuelve 404, de otro modo devuelve 200, si ocurre una excepcion devuelve 500</returns>
+            <response code="200">Hay articulos</response>
+            <response code="404">No hay articulos</response>
+            <response code="500">Excepcion interna</response>
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.ArticuloController.GetArticulosConMovimientosEnFechas(System.String,System.String,System.Int32)">
+            <summary>
+            Recibe dos fechas y en base a ellas filtra los articulos que tuvieron movimientos entre ellas
+            </summary>
+            <param name="fecha1">Fecha inicio busqueda</param>
+            <param name="fecha2">Fecha final busqueda</param>
+            <returns>Devuelve los articulos con movimientos entre esas fechas</returns>
+            <response code="200">Hay articulos</response>
+            <response code="404">No hay articulos</response>
+            <response code="500">Excepcion interna</response>
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.MovimientoStockController.Post(ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.MovimientosStock.MovimientoStockAltaDTO)">
+            <summary>
+            Registra un nuevo movimiento.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <response code="201">Fue creado correctamente</response>
+            <response code="400">Si el movimiento recibido es null o se produce un error de validación</response>    
+            <response code="401">Si no se pudo autenticar el usuario</response> 
+            <response code="500">Si se produce una excepción interna, por ejemplo si la base no existiera.</response>           
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.MovimientoStockController.ListarAgrupados">
+            <summary>
+            Agrupa los movimientos por año
+            </summary>
+            <returns>Movimientos agrupados por año</returns>
+            <response code="200">Existen movimientos agrupados</response>
+            <response code="401">Si no se pudo autenticar el usuario</response> 
+            <response code="500">Si se produce una excepción interna, por ejemplo si la base no existiera.</response>     
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.MovimientoStockController.GetFiltrados(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Obtiene los movimientos filtrados por tipo y articulo
+            </summary>
+            <param name="idArticulo">Id del articulo</param>
+            <param name="idTipo">Id del tipo</param>
+            <returns></returns>
+            <response code="200">Existen movimientos</response>
+            <response code="400">Si algun parametro recibido es null</response>    
+            <response code="404">Si no se encuentran movimientos</response>    
+            <response code="401">Si no se pudo autenticar el usuario</response> 
+            <response code="500">Si se produce una excepción interna, por ejemplo si la base no existiera.</response>     
+        </member>
+        <member name="T:Obligatoriop3.WebApi.Controllers.PedidoController">
+            <summary>
+            Controller para manejar las operaciones con pedidos
+            </summary>
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.PedidoController.Get">
+            <summary>
+            Get de los pedidos anulados
+            </summary>
+            <returns>Si no encuentra ninguno devuelve 404, de otro modo devuelve 200, si ocurre una excepcion devuelve 500</returns>
+            <response code="200">Hay pedidos</response>
+            <response code="404">No hay pedidos</response>
+            <response code="500">Excepcion interna</response>
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.TipoDeMovimientoController.Get">
+            <summary>
+            Lista todos los tipos de movimiento.
+            </summary>
+            <param></param>
+            <returns></returns>
+            <response code="200">Retorna la lista</response>
+            <response code="404">Si no hay tipos</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>    
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.TipoDeMovimientoController.Get(System.Int32)">
+            <summary>
+            Obtiene el tipo de movimiento con la id ingresada.
+            </summary>
+            <param name="id">Id a buscar</param>
+            <returns></returns>
+            <response code="200">Retorna el item</response>
+            <response code="404">Si no se encuentra</response>    
+            <response code="400">Si hay un error relacionado a la entidad</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>    
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.TipoDeMovimientoController.Post(ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.TiposDeMovimiento.TipoDeMovimientoAltaDTO)">
+            <summary>
+            Registra un nuevo tipodemovimiento.
+            </summary>
+            <param name="dto"></param>
+            <returns></returns>
+            <response code="201">Retorna el item creado y establece el Header Location a la ubicación del GetById</response>
+            <response code="400">Si el docente recibido es null o se produce un error de validación</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>    
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.TipoDeMovimientoController.Put(System.Int32,ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.TiposDeMovimiento.TipoDeMovimientoModificacionDto)">
+            <summary>
+            Edita un tipo de movimiento.
+            </summary>
+            <param name="dto">Datos nuevos</param>
+            <param name="id">Id del tipo a editar</param>
+            <returns></returns>
+            <response code="200">Se edita</response>
+            <response code="400">Si el tipo recibido es null o se produce un error de validación</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>    
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.TipoDeMovimientoController.Delete(System.Int32)">
+            <summary>
+            Elimina un tipodemovimiento.
+            </summary>
+            <param name="id">Id del tipo a borrar</param>
+            <returns></returns>
+            <response code="204">Si se elimina exitosamente</response>
+            <response code="400">Si se produce un error de validación</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>    
+        </member>
+        <member name="M:Obligatoriop3.WebApi.Controllers.UsuarioController.Login(Obligatoriop3.WebApi.DTOS.UsuariosDTO.UsuarioLoginDTO)">
+            <summary>
+            Login de usuarios JWT
+            </summary>
+            <param name="usr">DTO que contiene email y contraseña</param>
+            <returns>Devuelve el token generado, el rol y el email</returns>
+            <response code="200">Retorna token, rol y email</response>
+            <response code="401">Falla en credenciales</response>    
+            <response code="500">Si se produce una excepción no contemplada, por ejemplo si la base no existiera.</response>   
+        </member>
+    </members>
+</doc>

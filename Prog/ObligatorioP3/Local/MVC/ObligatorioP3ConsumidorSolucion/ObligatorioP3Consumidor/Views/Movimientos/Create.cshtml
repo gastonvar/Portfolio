@@ -1,0 +1,50 @@
+﻿@model ObligatorioP3Consumidor.Models.Movimientos.Selectores
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Registrar</h1>
+
+<h4>Registrar Movimiento de Stock</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">
+            <div class="form-group">
+                <label for="articulo">Articulo: </label>
+                <select name="articulo" id="articulo">
+                    @if (Model != null)
+                    {
+                        @foreach (var i in Model.Articulos)
+                        {
+                            <option value="@i.Id">@i.Nombre</option>
+                        }
+                    }
+                </select>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="tipo">Tipo de Movimiento: </label>
+                <select name="tipo" id="tipo">
+                    @if (Model != null)
+                    {
+                        @foreach (var i in Model.Tipos)
+                        {
+                            <option value="@i.Id">@i.Nombre</option>
+                        }
+                    }
+                </select>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="cantidad">Cantidad: </label>
+                <input type="number" name="cantidad" id="cantidad" required />
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Crear" />
+            </div>
+            <br />
+        </form>
+    </div>
+</div>

@@ -1,0 +1,950 @@
+﻿***********************************
+Archivo: _ViewImports.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\_ViewImports.cshtml
+***********************************
+@using ObligatorioP3
+@using ObligatorioP3.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+***********************************
+Archivo: _ViewStart.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\_ViewStart.cshtml
+***********************************
+@{
+    Layout = "_Layout";
+}
+
+***********************************
+Archivo: Create.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Articulo\Create.cshtml
+***********************************
+@model ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Articulos.ArticuloAltaDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<h4>Crear un nuevo articulo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Codigo" class="control-label"></label>
+                <input asp-for="Codigo" class="form-control" />
+                <span asp-validation-for="Codigo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Precio" class="control-label"></label>
+                <input asp-for="Precio" class="form-control" />
+                <span asp-validation-for="Precio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Stock" class="control-label"></label>
+                <input asp-for="Stock" class="form-control" />
+                <span asp-validation-for="Stock" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+***********************************
+Archivo: Index.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Articulo\Index.cshtml
+***********************************
+@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Articulos.ArticuloListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista articulos</h1>
+
+<p>
+    <a asp-action="Create" class="">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descripcion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Codigo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Stock)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Descripcion)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Codigo)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Precio)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Stock)
+                    </td>
+                </tr>
+        }
+}
+    </tbody>
+</table>
+
+***********************************
+Archivo: Index.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Cliente\Index.cshtml
+***********************************
+@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Clientes.ClienteListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<form method="post">
+    <h4>Deje ambos campos vacios para reiniciar la lista</h4>
+    <label>Texto a filtrar por razon social</label>
+    <input name="txt" type="text" placeholder="Razón Social"/><br />
+    <label>Monto para filtrar</label>
+    <input name="money" type="text" placeholder="Monto de pedido"/><br />
+    <input type="submit" value="Filtrar" class="btn btn-warning"/><br />
+</form>
+<h1>Lista clientes</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.RUT)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Ciudad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Numero)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Distancia)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0){
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RUT)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Calle)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Ciudad)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Numero)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Distancia)
+                    </td>
+                </tr>
+            }
+        }
+    </tbody>
+</table>
+
+***********************************
+Archivo: Index.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Home\Index.cshtml
+***********************************
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Señoras y señores sean todos y todas bienvenidos y bienvenidas a la papeleria de matias y gaston de programacion 3 :)</h1>
+</div>
+
+***********************************
+Archivo: Privacy.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Home\Privacy.cshtml
+***********************************
+@{
+    ViewData["Title"] = "Privacy Policy";
+}
+<h1>@ViewData["Title"]</h1>
+
+<p>ObligatorioP3 - Gastón Varela 316838 - Matías Romero 316178</p>
+
+***********************************
+Archivo: Create.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Pedido\Create.cshtml
+***********************************
+@model ObligatorioP3.Web.Models.PedidosModels.PedidoAltaModel
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+
+<h4>Crear Pedido</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <div class="form-group">
+            <label for="articulos">Articulos: </label>
+            <select name="articulos" id="articulos">
+                @if (Model != null)
+                {
+                    @foreach (var i in Model.articulos)
+                    {
+                        if (@i.Stock > 0)
+                        {
+                            <option value="@i.Id">@i.Nombre - @i.Stock disponibles - $@i.Precio c/u</option>
+                        }
+                    }
+                }
+            </select>
+            <br />
+            <label for="cantidad">Cantidad: </label>
+            <input type="number" name="cantidad" id="cantidad" />
+        </div>
+        <button id="botonAgregar">Agregar</button>
+        <hr />
+        <p><strong>Lineas de articulos del pedido</strong></p>
+        <div>
+             @if (Model != null)
+            {
+                @if (Model.lineas != null)
+                {
+                    @foreach (var i in Model.lineas)
+                    {
+                        <p>[ @i.ArticuloListarDto.Nombre - @i.Unidades unidades. - $@(i.Unidades * i.PrecioUnitario) ]</p>
+                    }
+                }
+            }
+        </div>
+        <a asp-action="limpiar">limpiar</a>
+        <hr />
+        <form method="post">
+            <div class="form-group">
+                <label for="tipoPedido">Pedido Común: </label>
+                <input type="radio" name="tipoPedido" id="tipoPedido" value="false" checked />
+                <br />
+                <label for="tipoPedido">Pedido Express: </label>
+                <input type="radio" name="tipoPedido" id="tipoPedido" value="true"/>
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="fechaEntrega">Fecha de Entrega: </label>
+                <input type="date" name="fechaEntrega" id="fechaEntrega" />
+            </div>
+            <hr />
+            <div class="form-group">
+                <label for="cliente">Cliente: </label>
+                <select name="cliente" id="cliente">
+                    @if (Model != null)
+                    {
+                        @foreach (var i in Model.clientes)
+                        {
+                            <option value="@i.Id">@i.RazonSocial</option>
+                        }
+                    }
+                </select>
+            </div>
+            <br />
+            <p>
+                <strong>Al hacer click en crear se aplicaran los impuestos correspondientes.</strong>
+            </p>
+            <div class="form-group">
+                <input type="submit" value="Crear" />
+            </div>
+            <br />
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+    <script>
+        document.getElementById('botonAgregar').onclick = function () {
+            var opcionSeleccionada = document.getElementById('articulos').value;
+            var cantidad = document.getElementById('cantidad').value;
+            window.location.href = '@Url.Action("Agregar", "Pedido")?opcionSeleccionada=' + opcionSeleccionada + '&cantidad=' + cantidad;
+        };
+    </script>
+}
+
+***********************************
+Archivo: Delete.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Pedido\Delete.cshtml
+***********************************
+@model ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Pedidos.PedidoListarDto
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Anular pedido</h1>
+
+<h3>Estas seguro que quieres anular este pedido? Esta accion es permanente, atengase a las consecuencias.</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaEmision)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaEmision)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.FechaEntrega)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.FechaEntrega)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ClienteDto.RazonSocial)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ClienteDto.RazonSocial)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.ClienteDto.RUT)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ClienteDto.RUT)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PrecioFinal)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PrecioFinal)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Anular" class="btn btn-danger" /> |
+        <a asp-action="Index">Volver</a>
+    </form>
+</div>
+
+***********************************
+Archivo: Index.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Pedido\Index.cshtml
+***********************************
+@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Pedidos.PedidoListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="post">
+    <label>Fecha de Emisión</label>
+    <input name="date" type="date" placeholder="Razón Social" /><br />
+    <input type="submit" value="Filtrar" class="btn btn-warning"/><br />
+</form>
+<hr />
+<p>
+    <a asp-action="ListarAnulados" class="">Ver Anulados</a>
+    <br />
+    <a asp-action="Index" class="">Ver Todos</a>
+</p>
+
+<h1>Lista de pedidos</h1>
+
+<p>
+    <a asp-action="Create" class="">Crear</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEmision)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClienteDto.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anulado)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaEmision)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaEntrega)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClienteDto.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioFinal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Anulado)
+                    </td>
+                    <td>
+                        @if (item.FechaEntrega > DateTime.Now && item.Anulado.Equals(false))
+                        {
+                            @Html.ActionLink("Anular", "Delete", new {  id=item.Id  })    
+                        }           
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+***********************************
+Archivo: Error.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Shared\Error.cshtml
+***********************************
+@model ErrorViewModel
+@{
+    ViewData["Title"] = "Error";
+}
+
+<h1 class="text-danger">Error.</h1>
+<h2 class="text-danger">An error occurred while processing your request.</h2>
+
+@if (Model.ShowRequestId)
+{
+    <p>
+        <strong>Request ID:</strong> <code>@Model.RequestId</code>
+    </p>
+}
+
+<h3>Development Mode</h3>
+<p>
+    Swapping to <strong>Development</strong> environment will display more detailed information about the error that occurred.
+</p>
+<p>
+    <strong>The Development environment shouldn't be enabled for deployed applications.</strong>
+    It can result in displaying sensitive information from exceptions to end users.
+    For local debugging, enable the <strong>Development</strong> environment by setting the <strong>ASPNETCORE_ENVIRONMENT</strong> environment variable to <strong>Development</strong>
+    and restarting the app.
+</p>
+
+***********************************
+Archivo: _Layout.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Shared\_Layout.cshtml
+***********************************
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - ObligatorioP3</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/ObligatorioP3.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <h4 style="margin-right: 25px;">ObligatorioP3</h4>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        @*Vistas disponibles para usuarios NO logueados*@
+                        @if (Context.Session.GetInt32("Rol") == null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">  [Home] </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Login"> [Log-in] </a>
+                            </li>
+                        }
+                        @*Vistas disponibles para usuarios logueados*@
+                        @if (Context.Session.GetInt32("Rol") != null)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Index"> [Administrar Usuarios] </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Cliente" asp-action="Index"> [Administrar Clientes] </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Articulo" asp-action="Index"> [Administrar Artículos] </a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Pedido" asp-action="Index"> [Administrar Pedidos] </a>
+                            </li>
+                        }
+                    </ul>
+                </div>
+                @if (Context.Session.GetInt32("Rol") != null)
+                {
+                    <div>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="Usuario" asp-action="Logout"> [Cerrar Sesión] </a>
+                    </div>
+                }
+                
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+            <partial name="_Mensajes" />
+        </main>
+    </div>
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; ObligatorioP3 - Gastón Varela 316838 - Matías Romero 316178 - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+
+***********************************
+Archivo: _Mensajes.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Shared\_Mensajes.cshtml
+***********************************
+
+@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@if (ViewBag.Error != null) {
+    <div class="alert alert-danger">@ViewBag.Error</div>
+}
+@if (TempData["Error"] != null)
+{
+    <div class="alert alert-danger">@TempData["Error"]</div>
+}
+@if (ViewBag.Mensaje != null)
+{
+    <div class="alert alert-info">@ViewBag.Mensaje</div>
+}
+@if (TempData["Mensaje"] != null)
+{
+    <div class="alert alert-info">@TempData["Mensaje"]</div>
+}
+@if (ViewBag.Info != null)
+{
+    <div class="alert alert-dark">@ViewBag.Info</div>
+}
+@if (TempData["Info"] != null)
+{
+    <div class="alert alert-dark">@TempData["Info"]</div>
+}
+***********************************
+Archivo: _ValidationScriptsPartial.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Shared\_ValidationScriptsPartial.cshtml
+***********************************
+<script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+<script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+
+***********************************
+Archivo: Create.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Usuario\Create.cshtml
+***********************************
+@model ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Usuarios.UsuarioAltaDto
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Crear</h1>
+<h4>Crear Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasena" class="control-label"></label>
+                <input asp-for="Contrasena" class="form-control" />
+                <span asp-validation-for="Contrasena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rol" class="control-label" hidden></label>
+                <input asp-for="Rol" value="admin" type="hidden" class="form-control" />
+                <span asp-validation-for="Rol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+***********************************
+Archivo: Delete.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Usuario\Delete.cshtml
+***********************************
+@model ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Usuarios.UsuarioListarDto
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<h1>Eliminar usuario</h1>
+<partial name="_Mensajes" />
+<h3>Estas seguro que quieres eliminar este usuario? Esta accion es permanente, atengase a las consecuencias.</h3>
+<div>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Id)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Email)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Email)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Nombre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Nombre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Apellido)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Apellido)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Contrasena)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Contrasena)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ContrasenaEncriptada)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ContrasenaEncriptada)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Rol)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Rol)
+        </dd>
+    </dl>
+    
+    <form asp-action="Delete">
+        <input type="submit" value="Delete" class="btn btn-danger" /> |
+        <a asp-action="Index">Volver</a>
+    </form>
+</div>
+
+***********************************
+Archivo: Edit.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Usuario\Edit.cshtml
+***********************************
+@model ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Usuarios.UsuarioModificacionDto
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar</h1>
+<partial name="_Mensajes" />
+<h4>Usuario</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email" class="control-label"></label>
+                <input asp-for="Email" class="form-control" disabled/>
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Nombre" class="control-label"></label>
+                <input asp-for="Nombre" class="form-control" />
+                <span asp-validation-for="Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Apellido" class="control-label"></label>
+                <input asp-for="Apellido" class="form-control" />
+                <span asp-validation-for="Apellido" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasena" class="control-label"></label>
+                <input asp-for="Contrasena" class="form-control" />
+                <span asp-validation-for="Contrasena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rol" class="control-label"></label>
+                <input asp-for="Rol" class="form-control" disabled/>
+                <span asp-validation-for="Rol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Volver</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+
+***********************************
+Archivo: Index.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Usuario\Index.cshtml
+***********************************
+@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Usuarios.UsuarioListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Lista de usuarios</h1>
+
+<p>
+    <a asp-action="Create">Crear</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Apellido)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Contrasena)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rol)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Email)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nombre)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Apellido)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Contrasena)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Rol)
+                    </td>
+                    <td>
+                        @Html.ActionLink("Edit", "Edit", new {  id=item.Id  }) 
+                        @if (item.Email != "Admin@gmail.com" && item.Id != Context.Session.GetInt32("Id"))
+                        {
+                            @Html.ActionLink("Delete", "Delete", new {  id=item.Id  })
+                        }
+                        
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
+
+***********************************
+Archivo: Login.cshtml
+Carpeta: C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3\Views\Usuario\Login.cshtml
+***********************************
+@model ObligatorioP3.Web.Models.UsuariosModels.UsuarioLoginModel
+
+@{
+    ViewData["Title"] = "Login";
+}
+
+<h1>Login</h1>
+
+<h4>Inicie sesion</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login" method="post">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="Email"></label>
+                <input asp-for="Email" value="Admin@gmail.com" class="form-control" />
+                <span asp-validation-for="Email" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Contrasena"></label>
+                <input asp-for="Contrasena" class="form-control" value="Admin.1" type="password"/>
+                <span asp-validation-for="Contrasena" class="text-danger"></span>
+            </div>
+            <button type="submit" class="">Login</button>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" class="">Volver</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

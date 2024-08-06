@@ -1,0 +1,454 @@
+USE [ObligatorioP3DB]
+GO
+SET IDENTITY_INSERT [dbo].[Articulos] ON 
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (1, N'Cuaderno de Rayas', N'Cuaderno de tapa dura con hojas rayadas', N'1234567890123', CAST(150.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (2, N'Bolígrafo Azul', N'Bolígrafo de tinta azul, punta fina', N'9876543210987', CAST(25.00 AS Decimal(18, 2)), 200)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (3, N'Lápiz HB Doble', N'Lápiz grafito grado HB', N'4567890123456', CAST(10.00 AS Decimal(18, 2)), 300)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (4, N'Goma de Borrar', N'Goma de borrar blanca', N'7890123456789', CAST(20.00 AS Decimal(18, 2)), 150)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (5, N'Resaltador Amarillo', N'Resaltador de color amarillo fluorescente', N'2345678901234', CAST(40.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (6, N'Regla de 30 cm', N'Regla de plástico transparente de 30 cm', N'6789012345678', CAST(30.00 AS Decimal(18, 2)), 150)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (7, N'Carpeta de Archivo', N'Carpeta de cartón grueso para archivar documentos', N'3456789012345', CAST(60.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (8, N'Papel Bond Blanco', N'Paquete de 100 hojas de papel bond blanco tamaño carta', N'8901234567890', CAST(80.00 AS Decimal(18, 2)), 200)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (9, N'Tijeras Escolares', N'Tijeras escolares de punta redonda', N'5678901234567', CAST(50.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (10, N'Cinta Adhesiva Transparente', N'Rollo de cinta adhesiva transparente de 10 metros', N'9012345678901', CAST(35.00 AS Decimal(18, 2)), 120)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (11, N'Calculadora Básica', N'Calculadora de bolsillo de funciones básicas', N'1122334455667', CAST(300.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (12, N'Post-it Colores', N'Bloque de notas adhesivas de colores surtidos', N'3344556677889', CAST(40.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (13, N'Pegamento en Barra', N'Barra de pegamento sin solventes', N'5566778899000', CAST(30.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (14, N'Clips Metálicos', N'Caja de clips metálicos surtidos', N'7788990011223', CAST(20.00 AS Decimal(18, 2)), 200)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (15, N'Plumón Negro', N'Plumón de punta fina', N'9900112233445', CAST(25.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (16, N'Pisapapeles de a 100', N'Pisa papeles como si pesara en toneladas lo que vale', N'9900112235445', CAST(100.00 AS Decimal(18, 2)), 1)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (17, N'Agenda 2024', N'Agenda diaria con tapa dura y cierre elástico', N'1112223334441', CAST(200.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (18, N'Borrador de Tinta', N'Borrador para tinta de bolígrafo', N'2223334445552', CAST(30.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (19, N'Cinta Correctora', N'Cinta correctora para corregir errores de escritura', N'3334445556663', CAST(45.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (20, N'Portaminas 0.5mm', N'Portaminas con minas de 0.5 mm', N'4445556667774', CAST(50.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (21, N'Archivador de Palanca', N'Archivador de palanca tamaño A4', N'5556667778885', CAST(150.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (22, N'Rotulador Permanente', N'Rotulador permanente negro', N'6667778889996', CAST(35.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (23, N'Carpeta con Separadores', N'Carpeta de cartón con separadores incluidos', N'7778889990007', CAST(80.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (24, N'Caja de Crayones', N'Caja de 24 crayones de colores', N'8889990001118', CAST(100.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (25, N'Bolígrafo Retráctil', N'Bolígrafo retráctil de tinta negra', N'9990001112229', CAST(35.00 AS Decimal(18, 2)), 120)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (26, N'Carpeta con Broche', N'Carpeta de plástico con broche a presión', N'0001112223330', CAST(60.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (27, N'Papel para Origami', N'Paquete de 50 hojas de papel para origami', N'1112223334442', CAST(55.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (28, N'Tablero de Corcho', N'Tablero de corcho con marco de madera', N'2223334445553', CAST(180.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (29, N'Set de Geometría', N'Set de reglas, escuadras y transportador', N'3334445556664', CAST(70.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (30, N'Caja Organizadora', N'Caja organizadora de plástico con compartimentos', N'4445556667775', CAST(120.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (31, N'Pinzas para Papel', N'Caja de pinzas metálicas para papel', N'5556667778886', CAST(25.00 AS Decimal(18, 2)), 140)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (32, N'Cuaderno de Espiral', N'Cuaderno de espiral con hojas rayadas', N'6667778889997', CAST(130.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (33, N'Lápiz de Carpintero', N'Lápiz especial para carpinteros', N'7778889990008', CAST(15.00 AS Decimal(18, 2)), 200)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (34, N'Portafolio Ejecutivo', N'Portafolio de cuero para documentos', N'8889990001119', CAST(300.00 AS Decimal(18, 2)), 20)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (35, N'Bolsa de Plástico', N'Paquete de 100 bolsas de plástico transparente', N'9990001112230', CAST(50.00 AS Decimal(18, 2)), 200)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (36, N'Rotulador de Pizarra Blanca', N'Rotulador para pizarra blanca, color negro', N'0001112223341', CAST(25.00 AS Decimal(18, 2)), 110)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (37, N'Marcador de Textos', N'Set de 6 marcadores de textos colores surtidos', N'1112223334452', CAST(90.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (38, N'Papel Reciclado', N'Paquete de 500 hojas de papel reciclado', N'2223334445563', CAST(80.00 AS Decimal(18, 2)), 150)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (39, N'Estuche para Lentes', N'Estuche rígido para lentes', N'3334445556674', CAST(60.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (40, N'Grapadora', N'Grapadora metálica con capacidad de 20 hojas', N'4445556667785', CAST(70.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (41, N'Repuesto de Grapas', N'Caja con 1000 grapas para grapadora', N'5556667778896', CAST(30.00 AS Decimal(18, 2)), 120)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (42, N'Cartulina de Colores', N'Paquete de 10 hojas de cartulina colores surtidos', N'6667778889907', CAST(40.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (43, N'Regla de Acrílico', N'Regla de acrílico transparente de 20 cm', N'7778889990018', CAST(20.00 AS Decimal(18, 2)), 110)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (44, N'Cuaderno de Cuadros', N'Cuaderno con hojas cuadriculadas', N'8889990001129', CAST(150.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (45, N'Pegamento en Gel', N'Tubo de pegamento en gel transparente', N'9990001112240', CAST(35.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (46, N'Calculadora Solar', N'Calculadora básica con alimentación solar', N'0001112223351', CAST(350.00 AS Decimal(18, 2)), 25)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (47, N'Notas Adhesivas', N'Bloque de 400 notas adhesivas, colores neón', N'1112223334462', CAST(45.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (48, N'Carpeta de Anillas', N'Carpeta con 4 anillas tamaño A4', N'2223334445573', CAST(70.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (49, N'Lápices de Colores Acuarelables', N'Set de 24 lápices de colores acuarelables', N'3334445556684', CAST(180.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (50, N'Cinta Decorativa', N'Set de 5 rollos de cinta decorativa', N'4445556667795', CAST(90.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (51, N'Papel Fotográfico', N'Paquete de 20 hojas de papel fotográfico', N'5556667778806', CAST(150.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (52, N'Marcador Borrable', N'Marcador borrable para pizarra blanca', N'6667778889917', CAST(30.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (53, N'Bolígrafo Recargable', N'Bolígrafo metálico recargable, tinta azul', N'7778889990028', CAST(120.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (54, N'Libreta de Apuntes', N'Libreta de apuntes con tapa blanda', N'8889990001139', CAST(80.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (55, N'Cinta para Rotuladora', N'Rollo de cinta adhesiva para rotuladora', N'9990001112250', CAST(60.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (56, N'Perforadora de Papel', N'Perforadora de papel metálica, 2 agujeros', N'0001112223361', CAST(100.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (57, N'Set de Compás', N'Set de compás y accesorios para dibujo técnico', N'1112223334472', CAST(85.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (58, N'Portafolios Expandible', N'Portafolios expandible con 13 compartimentos', N'2223334445583', CAST(150.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (59, N'Taco de Notas', N'Taco de notas de 500 hojas tamaño pequeño', N'3334445556694', CAST(40.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (60, N'Rotulador de Tela', N'Rotulador permanente para tela, colores surtidos', N'4445556667805', CAST(35.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (61, N'Archivador de Anillas', N'Archivador de anillas metálicas, tamaño oficio', N'5556667778816', CAST(110.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (62, N'Set de Pinceles', N'Set de 10 pinceles de diferentes tamaños', N'6667778889927', CAST(70.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (63, N'Bolsa de Regalo', N'Paquete de 5 bolsas de regalo, diseño surtido', N'7778889990038', CAST(55.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (64, N'Caja de Lápices', N'Caja metálica con 12 lápices de grafito', N'8889990001149', CAST(90.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (65, N'Bolígrafo Borrable', N'Bolígrafo con tinta borrable, color azul', N'1112223334481', CAST(40.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (66, N'Papel Fotográfico Glossy', N'Paquete de 20 hojas de papel fotográfico glossy', N'2223334445592', CAST(160.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (67, N'Caja de Lápices Profesionales', N'Caja de 24 lápices de grafito profesionales', N'3334445556603', CAST(200.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (68, N'Plumón Pastel', N'Set de 6 plumones colores pastel', N'4445556667714', CAST(75.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (69, N'Carpeta con Solapas', N'Carpeta de cartón con solapas, tamaño A4', N'5556667778825', CAST(65.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (70, N'Mochila Escolar', N'Mochila escolar con compartimentos múltiples', N'6667778889936', CAST(300.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (71, N'Libro de Colorear', N'Libro de colorear para adultos', N'7778889990047', CAST(120.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (72, N'Tarjetas de Presentación', N'Paquete de 100 tarjetas de presentación personalizables', N'8889990001158', CAST(80.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (73, N'Bolígrafo de Gel con Purpurina', N'Set de 10 bolígrafos de gel con purpurina', N'9990001112267', CAST(120.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (74, N'Cinta Aislante', N'Rollo de cinta aislante, color negro', N'0001112223378', CAST(50.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (75, N'Lápiz de Sombra', N'Lápiz de sombra para dibujo artístico', N'1112223334490', CAST(45.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (76, N'Papelería Personalizada', N'Set de papelería personalizada con nombre', N'2223334445601', CAST(150.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (77, N'Estuche Metálico', N'Estuche metálico para lápices y bolígrafos', N'3334445556612', CAST(100.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (78, N'Portadocumentos', N'Portadocumentos de plástico tamaño oficio', N'4445556667723', CAST(40.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (79, N'Lápices de Grafito', N'Set de 6 lápices de grafito HB', N'5556667778834', CAST(30.00 AS Decimal(18, 2)), 150)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (80, N'Cartuchera Escolar', N'Cartuchera escolar con varios compartimentos', N'6667778889945', CAST(70.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (81, N'Marcador Fluorescente', N'Marcador fluorescente color amarillo', N'7778889990056', CAST(35.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (82, N'Cinta Adhesiva Transparente Grande', N'Rollo de cinta adhesiva transparente de 50 metros', N'8889990001167', CAST(70.00 AS Decimal(18, 2)), 110)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (83, N'Talonario de Recibos', N'Talonario de recibos numerados', N'9990001112276', CAST(45.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (84, N'Taco de Notas Adhesivas', N'Taco de notas adhesivas tamaño mediano', N'0001112223387', CAST(25.00 AS Decimal(18, 2)), 130)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (85, N'Caja de Acuarelas', N'Caja de 12 pastillas de acuarelas', N'1112223334507', CAST(110.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (86, N'Libreta de Bolsillo', N'Libreta de bolsillo con tapa dura', N'2223334445610', CAST(40.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (87, N'Bolígrafo de Madera', N'Bolígrafo con acabado en madera', N'3334445556621', CAST(80.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (88, N'Cinta Adhesiva Doble Cara', N'Rollo de cinta adhesiva doble cara de 5 metros', N'4445556667732', CAST(60.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (89, N'Papel de Envolver', N'Rollo de papel de envolver regalo', N'5556667778843', CAST(45.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (90, N'Rotulador Metálico', N'Set de 3 rotuladores metálicos', N'6667778889954', CAST(90.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (91, N'Caja de Archivadores', N'Caja de 5 archivadores de cartón', N'7778889990065', CAST(110.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (92, N'Plumones para Tela', N'Set de 8 plumones para tela, colores surtidos', N'8889990001176', CAST(70.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (93, N'Carpeta Escolar', N'Carpeta escolar con diseño juvenil', N'9990001112285', CAST(55.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (94, N'Bloc de Dibujo Técnico', N'Bloc de dibujo técnico tamaño A3', N'0001112223396', CAST(100.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (95, N'Rotulador Neon', N'Set de 4 rotuladores colores neón', N'1112223334516', CAST(85.00 AS Decimal(18, 2)), 70)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (96, N'Bolígrafo con Estilógrafo', N'Bolígrafo con estilógrafo para pantalla táctil', N'2223334445629', CAST(65.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (97, N'Cinta Reflejante', N'Rollo de cinta reflejante para seguridad', N'3334445556630', CAST(75.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (98, N'Papel para Scrapbook', N'Paquete de 20 hojas de papel para scrapbook', N'4445556667741', CAST(95.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (99, N'Caja de Pasteles', N'Caja de 24 pasteles al óleo', N'5556667778852', CAST(140.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (100, N'Tijeras de Precisión para Manualidades', N'Tijeras de precisión para cortar papel', N'6667778889963', CAST(60.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (101, N'Goma de Borrar en Forma de Fruta', N'Goma de borrar con forma de fruta, set de 4', N'7778889990074', CAST(25.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (102, N'Portaminas Automático', N'Portaminas automático con minas recargables', N'8889990001185', CAST(90.00 AS Decimal(18, 2)), 50)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (103, N'Notas Adhesivas en Forma de Corazón', N'Bloque de notas adhesivas en forma de corazón', N'9990001112294', CAST(35.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (104, N'Cinta Adhesiva Decorativa de Navidad', N'Set de 5 rollos de cinta adhesiva decorativa de Navidad', N'0001112223405', CAST(80.00 AS Decimal(18, 2)), 60)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (105, N'Papel Transfer para Camisetas', N'Paquete de 10 hojas de papel transfer para camisetas', N'1112223334525', CAST(120.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (106, N'Bolsa de Almacenamiento', N'Bolsa de almacenamiento con cierre hermético', N'2223334445638', CAST(50.00 AS Decimal(18, 2)), 100)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (107, N'Cutter de Precisión', N'Cutter de precisión con hojas intercambiables', N'3334445556649', CAST(40.00 AS Decimal(18, 2)), 90)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (108, N'Estuche de Maquillaje', N'Estuche de maquillaje con espejo', N'4445556667750', CAST(110.00 AS Decimal(18, 2)), 30)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (109, N'Papel para Calcar', N'Paquete de 50 hojas de papel para calcar', N'5556667778861', CAST(60.00 AS Decimal(18, 2)), 80)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (110, N'Cuaderno de Viaje', N'Cuaderno de viaje con bolsillos internos', N'6667778889972', CAST(130.00 AS Decimal(18, 2)), 40)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (111, N'Bolígrafo Ergonómico', N'Bolígrafo ergonómico con tinta negra', N'7778889990083', CAST(50.00 AS Decimal(18, 2)), 110)
+GO
+INSERT [dbo].[Articulos] ([Id], [Nombre], [Descripcion], [Codigo], [Precio], [Stock]) VALUES (112, N'Papel Vegetal', N'Paquete de 20 hojas de papel vegetal', N'8889990001194', CAST(70.00 AS Decimal(18, 2)), 70)
+GO
+SET IDENTITY_INSERT [dbo].[Articulos] OFF
+GO
+SET IDENTITY_INSERT [dbo].[TiposDeMovimiento] ON 
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (1, N'Compra de stock (I)', 1, 1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (2, N'Venta de Productos (E)', 0, -1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (3, N'Devolución de Venta (E)', 0, -1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (4, N'Donación Recibida (I)', 1, 1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (5, N'Donación Realizada (E)', 0, -1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (6, N'Pérdida de stock (E)', 0, -1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (7, N'Ganancia de stock (I)', 1, 1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (8, N'Rotura (E)', 0, -1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (9, N'Transferencia entrante entre Almacenes (I)', 1, 1)
+GO
+INSERT [dbo].[TiposDeMovimiento] ([Id], [Nombre], [Aumento], [Coeficiente]) VALUES (10, N'Transferencia saliente entre Almacenes (E)', 0, -1)
+GO
+SET IDENTITY_INSERT [dbo].[TiposDeMovimiento] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Usuarios] ON 
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (1, N'Admin@gmail.com', N'admin', N'1c4572d4c3326b31034a63464ffbbc35f487d73a951a125eebaa8b699a232103', N'Admin.1', N'Admin', N'Admin')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (2, N'Encargado@gmail.com', N'encargado', N'b7fda502a8b376fa74e672145f786836d95ac11bb89db9b7f000c85a2527001c', N'Encargado.1', N'Encargado', N'Encargado')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (3, N'Usuarioa@gmail.com', N'admin', N'fe26abb71eb0d6d1fdaceece74f438d39b264a40da978c8a7186746841af88e1', N'UsuarioA.1', N'Usuarioa', N'Usuarioa')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (4, N'Usuariob@gmail.com', N'admin', N'ec03256a93d16c3e92d9ce82093ab43e0ac079157bff22599bf38a1a47511097', N'UsuarioB.1', N'Usuariob', N'Usuariob')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (5, N'Usuarioc@gmail.com', N'admin', N'acfcf89b6e1c87e5e0334a667dfaa661aa03d88a3105c6a2680a61d44cba4d14', N'UsuarioC.1', N'Usuarioc', N'Usuarioc')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (6, N'Usuariod@gmail.com', N'admin', N'd9bc75be30c690c2b484cd048b9d5a9e36cea0aeb911d8d2d5451529d3bb609e', N'UsuarioD.1', N'Usuariod', N'Usuariod')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (7, N'Usuarioe@gmail.com', N'admin', N'06ccdf93027aeabc98155010c1577024da16866952b562a64df4aac6ca6085d2', N'UsuarioE.1', N'Usuarioe', N'Usuarioe')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (8, N'Usuariof@gmail.com', N'admin', N'3287b0a17e5a8c7e22f2a88f530883635ab52311a903ac02f207d7fdd300a456', N'UsuarioF.1', N'Usuariof', N'Usuariof')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (9, N'Usuariog@gmail.com', N'admin', N'68088871067d1521a93b094de967d7eb887d6533c8212f791f47b87c5e6ccc7a', N'UsuarioG.1', N'Usuariog', N'Usuariog')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (10, N'Usuarioh@gmail.com', N'admin', N'dbeec5af8745f3f226b2b299ce60a0ca2c980a0cc51a0f396a3c1cf9ca03ccdf', N'UsuarioH.1', N'Usuarioh', N'Usuarioh')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (11, N'Usuarioi@gmail.com', N'admin', N'd28c99ba52284d88b7a1dcf319ebf550663b0ba2012e9b3ce8d6ea0b75f2d397', N'UsuarioI.1', N'Usuarioi', N'Usuarioi')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (12, N'Usuarioj@gmail.com', N'admin', N'39d90289a877df33edb38710001e1d3cdc9e7707e77ad598f23555be919e5039', N'UsuarioJ.1', N'Usuarioj', N'Usuarioj')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (13, N'Usuariok@gmail.com', N'encargado', N'fdc2e0957483474c1266f6d863ff4564b778d5528ba4393f6f087c617b845fc6', N'UsuarioK.1', N'Usuariok', N'Usuariok')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (14, N'Usuariol@gmail.com', N'encargado', N'aa0c9f7e941d979bec7df58dd7dab8dfb588c52c81a9f4ff7daf4846cf50419f', N'UsuarioL.1', N'Usuariol', N'Usuariol')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (15, N'Usuariom@gmail.com', N'encargado', N'6c6bdb84c7c840d53a5f3f54db4e06c9503e89b3bff917c619fff4c3a3085972', N'UsuarioM.1', N'Usuariom', N'Usuariom')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (16, N'Usuarion@gmail.com', N'encargado', N'9bffeadfb1731a930315b651dd21f4e2959bdf0c73693c37d0a86e4387ddc46b', N'UsuarioN.1', N'Usuarion', N'Usuarion')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (17, N'Usuarioo@gmail.com', N'encargado', N'63785c36016c2b86073ade14e7137541b9e9143330ea425999aa69582c2a2cc0', N'UsuarioO.1', N'Usuarioo', N'Usuarioo')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (18, N'Usuariop@gmail.com', N'encargado', N'2cc4745b648911e3ec9ba7850d092e416a76511d6501992c7e5148a7d921c54e', N'UsuarioP.1', N'Usuariop', N'Usuariop')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (19, N'Usuarioq@gmail.com', N'encargado', N'6f15cf99170f719ccbecb0047c278e74b9c34f9a112d82094a9d91b6b56da79d', N'UsuarioQ.1', N'Usuarioq', N'Usuarioq')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (20, N'Usuarior@gmail.com', N'encargado', N'd48c452ad915bce71372b54a50d7e337ecb7b760dd115ac216f57c8073b49654', N'UsuarioR.1', N'Usuarior', N'Usuarior')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (21, N'Usuarios@gmail.com', N'encargado', N'2f165fd3448fa85343382f4e7f031f7b1616fae703ff915270515bae6086be22', N'UsuarioS.1', N'Usuarios', N'Usuarios')
+GO
+INSERT [dbo].[Usuarios] ([Id], [Email], [Rol], [Contrasena_ContrasenaEncriptada], [Contrasena_ContrasenaNoEncriptada], [NombreCompleto_Apellido], [NombreCompleto_Nombre]) VALUES (22, N'Usuariot@gmail.com', N'encargado', N'2de15f75b846fac4ff55d8442c3b12fddc8dcad283644fd5c2841fc6dd7e42d1', N'UsuarioT.1', N'Usuariot', N'Usuariot')
+GO
+SET IDENTITY_INSERT [dbo].[Usuarios] OFF
+GO
+SET IDENTITY_INSERT [dbo].[MovimientosDeStock] ON 
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (1, CAST(N'2021-06-20T13:35:54.0000000' AS DateTime2), 17, 1, 13, 100)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (2, CAST(N'2021-06-20T13:35:57.0000000' AS DateTime2), 17, 1, 13, 100)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (3, CAST(N'2021-06-20T13:35:58.0000000' AS DateTime2), 17, 1, 13, 100)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (4, CAST(N'2022-06-20T13:36:00.0000000' AS DateTime2), 17, 1, 13, 100)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (5, CAST(N'2022-06-20T13:36:04.0000000' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (6, CAST(N'2022-06-20T13:36:06.0000000' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (7, CAST(N'2022-06-20T13:36:07.0000000' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (8, CAST(N'2024-06-20T13:36:09.5489989' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (9, CAST(N'2024-06-20T13:36:10.9721922' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (10, CAST(N'2024-06-20T13:36:13.0933441' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (11, CAST(N'2024-06-20T13:36:14.4923210' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (12, CAST(N'2024-06-20T13:36:16.2568768' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (13, CAST(N'2024-06-20T13:36:18.0698305' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (14, CAST(N'2024-06-20T13:36:19.4348564' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (15, CAST(N'2024-06-20T13:36:20.9379011' AS DateTime2), 17, 2, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (16, CAST(N'2024-06-20T13:36:24.6188139' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (17, CAST(N'2024-06-20T13:36:25.3747407' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (18, CAST(N'2024-06-20T13:36:26.0463616' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (19, CAST(N'2024-06-20T13:36:26.5979023' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (20, CAST(N'2024-06-20T13:36:27.2157215' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (21, CAST(N'2024-06-20T13:36:27.8481747' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (22, CAST(N'2024-06-20T13:36:28.5453306' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (23, CAST(N'2024-06-20T13:36:29.3185698' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (24, CAST(N'2024-06-20T13:36:29.9672379' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (25, CAST(N'2024-06-20T13:36:30.6536316' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (26, CAST(N'2024-06-20T13:36:31.3190348' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (27, CAST(N'2024-06-20T13:36:31.9814136' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (28, CAST(N'2024-06-20T13:36:32.6527221' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (29, CAST(N'2024-06-20T13:36:33.3132860' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (30, CAST(N'2024-06-20T13:36:33.9817563' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (31, CAST(N'2024-06-20T13:36:34.9937062' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (32, CAST(N'2024-06-20T13:36:35.7460288' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (33, CAST(N'2024-06-20T13:36:36.7985393' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (34, CAST(N'2024-06-20T13:36:37.4951117' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (35, CAST(N'2024-06-20T13:36:38.0667907' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (36, CAST(N'2024-06-20T13:36:39.0307546' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (37, CAST(N'2024-06-20T13:36:39.8448820' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (38, CAST(N'2024-06-20T13:36:40.9112694' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (39, CAST(N'2024-06-20T13:36:41.6645229' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (40, CAST(N'2024-06-20T13:36:42.4441790' AS DateTime2), 17, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (41, CAST(N'2010-06-20T13:37:43.0000000' AS DateTime2), 61, 1, 13, 100)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (42, CAST(N'2024-06-20T13:37:46.4473166' AS DateTime2), 17, 3, 13, 4)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (43, CAST(N'2024-06-20T13:37:48.2124551' AS DateTime2), 17, 5, 13, 4)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (44, CAST(N'2024-06-20T13:37:50.3890767' AS DateTime2), 17, 4, 13, 4)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (45, CAST(N'2024-06-20T13:37:52.6857588' AS DateTime2), 17, 5, 13, 4)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (46, CAST(N'2024-06-20T13:45:44.5316731' AS DateTime2), 94, 1, 13, 1)
+GO
+INSERT [dbo].[MovimientosDeStock] ([Id], [Fecha], [IdArticulo], [IdTipo], [IdUsuario], [Cantidad]) VALUES (47, CAST(N'2024-06-20T13:46:53.4135541' AS DateTime2), 65, 1, 13, 5)
+GO
+SET IDENTITY_INSERT [dbo].[MovimientosDeStock] OFF
+GO
+SET IDENTITY_INSERT [dbo].[Clientes] ON 
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (1, N'Supermercado El Ahorro', N'112233455563', N'Av. Libertador 1234', N'Montevideo', 3.2, 101)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (2, N'Ferretería La Herramienta', N'112232445567', N'Calle República Argentina 432', N'Punta del Este', 8.5, 55)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (3, N'Tienda de Ropa Fashion', N'334455667768', N'Av. Italia 987', N'Canelones', 15.3, 205)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (4, N'Panadería El Buen Gusto', N'445566778899', N'Calle Brasil 567', N'Salto', 5.7, 78)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (5, N'Restaurante La Parrilla', N'556577889900', N'Av. 18 de Julio 876', N'Maldonado', 10.1, 309)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (6, N'Farmacia La Salud', N'667788990011', N'Av. Artigas 321', N'Rivera', 12.6, 210)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (7, N'Librería El Saber', N'878899001122', N'Calle San Martín 210', N'Tacuarembó', 7.9, 95)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (8, N'Cafetería El Cafecito', N'869900112233', N'Plaza Independencia 456', N'Colonia', 9.3, 40)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (9, N'Taller Mecánico El Rápido', N'590011223344', N'Av. Brasil 654', N'Paysandú', 4.8, 167)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (10, N'Gimnasio Fitness Plus', N'112235445566', N'Av. Luis Alberto de Herrera 789', N'Durazno', 6.4, 77)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (11, N'Veterinaria Mascotas Felices', N'334455667788', N'Av. Italia 432', N'Treinta y Tres', 11.2, 88)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (12, N'Droguería La Buena Vida', N'556677889900', N'Calle Uruguay 987', N'Rocha', 14.7, 153)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (13, N'Óptica Visión Clara', N'778899001122', N'Av. Joaquín Suárez 210', N'San José', 8.1, 64)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (14, N'Peluquería Estilo Único', N'990011223344', N'Calle Rivera 123', N'Flores', 3.6, 22)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (15, N'Florería Flores del Jardín', N'112233445563', N'Av. Gral. Flores 876', N'Lavalleja', 9.9, 115)
+GO
+INSERT [dbo].[Clientes] ([Id], [RazonSocial], [RUT], [Direccion_Calle], [Direccion_Ciudad], [Direccion_Distancia], [Direccion_Numero]) VALUES (16, N'Santeria Santito Feliz', N'112233445562', N'Mateo Legnani 126', N'Santa Lucia', 101, 115)
+GO
+SET IDENTITY_INSERT [dbo].[Clientes] OFF
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20240620161525_init', N'8.0.4')
+GO
+INSERT [dbo].[__EFMigrationsHistory] ([MigrationId], [ProductVersion]) VALUES (N'20240620162838_init2', N'8.0.4')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'cantidadRegistros', N'20')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'iva', N'1,22')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'plazoExpress', N'5')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'recargoComun', N'1,05')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'recargoExpressA', N'1,10')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'recargoExpressB', N'1,15')
+GO
+INSERT [dbo].[Parametros] ([Nombre], [Valor]) VALUES (N'topeMovimiento', N'100')
+GO

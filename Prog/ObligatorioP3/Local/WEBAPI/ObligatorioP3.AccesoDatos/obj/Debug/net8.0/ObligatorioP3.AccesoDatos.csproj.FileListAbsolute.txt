@@ -1,0 +1,188 @@
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Local\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio\Refactor\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Local refactorizado + precargas\ObligatorioP3\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\Usuario\Documents\Educación\Carrera Programación ORT\3er Semestre\Programación 3\Obligatorio 2da entrega\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\ObligatorioP3\Obligatorio2\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.deps.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.runtimeconfig.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\bin\Debug\net8.0\ObligatorioP3.LogicaNegocio.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.AssemblyInfo.cs
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.sourcelink.json
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\Obligato.27D670C0.Up2Date
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\refint\ObligatorioP3.AccesoDatos.dll
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.pdb
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ObligatorioP3.AccesoDatos.genruntimeconfig.cache
+C:\Users\gasva\Desktop\Archivos del portfolio\Prog\ObligatorioP3\Local\WEBAPI\ObligatorioP3.AccesoDatos\obj\Debug\net8.0\ref\ObligatorioP3.AccesoDatos.dll

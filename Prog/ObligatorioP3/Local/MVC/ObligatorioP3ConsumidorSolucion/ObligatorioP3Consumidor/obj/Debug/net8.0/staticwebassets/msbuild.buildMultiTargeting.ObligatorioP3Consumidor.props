@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\ObligatorioP3Consumidor.props" />
+</Project>

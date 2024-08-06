@@ -1,0 +1,86 @@
+﻿@model IEnumerable<ObligatorioP3.LogicaAplicacion.DataTransferObjects.Dtos.Pedidos.PedidoListarDto>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<form method="post">
+    <label>Fecha de Emisión</label>
+    <input name="date" type="date" placeholder="Razón Social" /><br />
+    <input type="submit" value="Filtrar" class="btn btn-warning"/><br />
+</form>
+<hr />
+<p>
+    <a asp-action="ListarAnulados" class="">Ver Anulados</a>
+    <br />
+    <a asp-action="Index" class="">Ver Todos</a>
+</p>
+
+<h1>Lista de pedidos</h1>
+
+<p>
+    <a asp-action="Create" class="">Crear</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEmision)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaEntrega)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ClienteDto.RazonSocial)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PrecioFinal)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anulado)
+            </th>
+            <th>
+                Acciones
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Count() > 0)
+        {
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Id)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaEmision)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FechaEntrega)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.ClienteDto.RazonSocial)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.PrecioFinal)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Anulado)
+                    </td>
+                    <td>
+                        @if (item.FechaEntrega > DateTime.Now && item.Anulado.Equals(false))
+                        {
+                            @Html.ActionLink("Anular", "Delete", new {  id=item.Id  })    
+                        }           
+                    </td>
+                </tr>
+            }
+        }
+
+    </tbody>
+</table>
