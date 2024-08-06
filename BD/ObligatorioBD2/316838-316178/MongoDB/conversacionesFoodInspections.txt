@@ -1,0 +1,193 @@
+use conversacionesFoodInspections
+
+// ------------------------------------------------------------------------------------
+// Creación de la colección necesaria para almacenar los datos de la realidad planteada
+// ------------------------------------------------------------------------------------
+
+// Definimos la colección
+db.createCollection("Conversaciones");
+
+// Por si necesitamos limpiar la colección y rehacer la precarga
+db.Conversaciones.drop();
+
+// Creamos unos Arrays con los valores que queremos que se usen para generar las conversaciones
+let resultadosInspeccion = ["Pasa", "Falla", "Pasa con condiciones", "Oficina no encontrada"];
+let tiposViolacion = [
+    "Falta de higiene",
+    "Infracción sanitaria",
+    "Uso inadecuado de alimentos",
+    "Mal manejo de desechos",
+    "Incumplimiento de seguridad",
+    "Horarios de operación",
+    "Venta de alcohol a menores",
+    "Presencia de plagas",
+    "Contaminación cruzada",
+    "Falta de licencia",
+    "Manipulación incorrecta",
+    "Deficiencias estructurales",
+    "Inadecuada temperatura",
+    "No cumplimiento de limpieza",
+    "Falta de señalización"
+];
+let establecimientos = [
+    'Restaurante El Sol', 'Pizzería La Luna', 'Cafetería La Esquina', 'Bar El Patio', 'Sushi Fusion',
+    'Taco Time', 'Burger Palace', 'Café Central', 'Pub Rock&Roll', 'Fried Chicken House', 'Vegetarian Garden',
+    'Seafood Delight', 'Steakhouse Supreme', 'Noodle House', 'Smoothie Haven', 'Gourmet Bistro', 'Bagel Cafe',
+    'Thai Palace', 'Creperie Charmante', 'Taco Truck', 'Restaurante El Maracanazo'
+];
+let inspectores = [
+    "Daniel García",
+    "Laura Martínez",
+    "Javier Rodríguez",
+    "María González",
+    "Carlos López",
+    "Sandra Pérez",
+    "Antonio Sánchez",
+    "Elena Ramírez",
+    "David Gómez",
+    "Carmen Torres"
+];
+
+// Función que recibe un array de parámetro y devuelve un valor aleatorio dentro del mismo. Esto es para agarrar
+// datos de los arrays que declaramos mas arriba.
+function getRandomElement(arr) {
+    return arr[Math.floor(Math.random() * arr.length)];
+}
+
+// Función que genera una fecha random para asignar a la conversación
+function generateRandomDate() {
+    let start = new Date(2024, 0, 1);
+    let end = new Date(2024, 11, 31);
+    return new Date(start.getTime() + Math.random() * (end.getTime() - start.getTime()));
+}
+
+// Array vacío de conversaciones que vamos a llenar para luego insertar
+let conversaciones = [];
+
+// Inicio del loop de generación de conversaciones
+for (let i = 0; i < 100; i++) {
+    
+    // Nos traemos una fecha random
+    let fechaInicio = generateRandomDate();
+    // En base a la fecha de inicio que generamos, creamos 3 fechas mas para el intercambio de mensajes
+    let fechaMensaje1 = new Date(fechaInicio.getTime() + 5 * 60000); // 5 minutos después
+    let fechaMensaje2 = new Date(fechaInicio.getTime() + 10 * 60000); // 10 minutos después
+    let fechaMensaje3 = new Date(fechaInicio.getTime() + 15 * 60000); // 15 minutos después
+    // Nos traemos dos inspectores random para que sean los participantes
+    let participante1 = getRandomElement(inspectores);
+    let participante2 = getRandomElement(inspectores);
+    // Definimos si pasó o falló. En base a eso asignamos un tipo de violación
+    let resultadoInspeccion = getRandomElement(resultadosInspeccion);
+    let tipoViolacion = ""
+    if(resultadoInspeccion == "Pasa" || resultadoInspeccion == "Oficina no encontrada") {
+        tipoViolacion = "Ninguna";
+    }
+    else {
+        tipoViolacion = getRandomElement(tiposViolacion);
+    };
+
+    // Pusheamos una conversación al array de conversaciones
+    conversaciones.push({
+        "nombreEstablecimiento": getRandomElement(establecimientos),
+        "tipoViolacion": tipoViolacion,
+        "resultadoInspeccion": resultadoInspeccion,
+        "fechaInicio": fechaInicio,
+        "etiquetas": [],
+        "participantes": [participante1, participante2],
+        "mensajes": [
+            {
+                "autor": participante1,
+                "cuerpo": "Hola este es el primer mensaje de esta conversación.",
+                "fecha": fechaMensaje1
+            },
+            {
+                "autor": participante2,
+                "cuerpo": "Hola, esta es mi respuesta.",
+                "fecha": fechaMensaje2
+            },
+            {
+                "autor": participante1,
+                "cuerpo": "Adiós.",
+                "fecha": fechaMensaje3
+            }
+        ]
+    });
+};
+
+// Hacemos el insert desde el array de conversaciones para finalizar la carga de las conversaciones
+db.Conversaciones.insertMany(conversaciones);
+
+// Consultamos toda la colección a ver si se cargó correctamente
+db.Conversaciones.find();
+
+
+
+
+// ------------------------------------------------------------------------------------
+// Consultas solicitadas en la letra
+// ------------------------------------------------------------------------------------
+
+// a) Cuantas conversaciones sobre violaciones diferentes se constataron.
+//    Para esta consulta por la forma en la que planteamos la colección, tuvimos que agregar 
+//    condición para que no se cuente como infracción el valor "Ninguna" que es lo que se asigna 
+//    una conversasión sobre una inspección pasó correctamente o no se encontró la oficina.
+db.Conversaciones.aggregate([
+    {
+        $match: {
+            tipoViolacion: { $ne: "Ninguna" }
+        }
+    },
+    {
+        $group: {
+            _id: "$tipoViolacion"
+        }
+    },
+    {
+        $count: "totalViolacionesDiferentes"
+    }
+]);
+
+
+// b) Obtener los mejores establecimientos basado en la cantidad de inspecciones aprobadas.
+// Paso 1: Contamos las inspecciones aprobadas por cada establecimiento y lo convierto en un array
+let aprobadasPorEstablecimiento = db.Conversaciones.aggregate([
+    {
+        $match: {
+            resultadoInspeccion: "Pasa"
+        }
+    },
+    {
+        $group: {
+            _id: "$nombreEstablecimiento",
+            cantAprobadas: { $sum: 1 }
+        }
+    }
+]).toArray();
+
+// Paso 2: Encontramos el número máximo de inspecciones aprobadas
+let maximo = -1;
+aprobadasPorEstablecimiento.forEach(e=>
+{
+    if(e.cantAprobadas>maximo){
+        maximo = e.cantAprobadas;
+    }
+}
+)
+
+// Paso 3: Filtramos los establecimientos que tengan el número de insp. aprobadas = al maximo
+let mejoresEstablecimientos = aprobadasPorEstablecimiento.filter(e => e.cantAprobadas === maximo);
+
+// Mostrar los mejores establecimientos
+mejoresEstablecimientos.forEach(e=>{
+    print("Nombre: "+e._id+" || Cantidad de aprobadas: "+e.cantAprobadas);
+});
+
+
+// c) Modificar una conversación agregando una etiqueta “IMPORTANTE” para todos aquellos
+//    chats que tengan referencia a resultados reprobados ('Falla').
+db.Conversaciones.updateMany(
+    { resultadoInspeccion: "Falla" },
+    { $addToSet: { etiquetas: "IMPORTANTE" } }
+);
+// Traemos las conversaciones de inspecciones falladas para validar que se agregó la etiqueta
+db.Conversaciones.find({ resultadoInspeccion: "Falla" });
