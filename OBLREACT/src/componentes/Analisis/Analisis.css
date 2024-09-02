@@ -1,0 +1,23 @@
+.cantidadCatContainer, .comidasContainer {
+    background-color: var(--beige);
+    border: 5px;
+    border-color: var(--header_card);
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0 20px 0 0 var(--header_card);
+    transition: all .5s;
+}
+.cantidadCatContainer{
+    margin-right: 30px;
+}
+.comidasContainer{
+    margin-left: 60px;
+}
+.cantidadCatContainer:hover, .comidasContainer:hover  {
+    box-shadow: 0px 0px 0px 0px var(--header_card);
+}
+
+.analitics-container {
+    display: flex;
+    justify-content: center;
+}

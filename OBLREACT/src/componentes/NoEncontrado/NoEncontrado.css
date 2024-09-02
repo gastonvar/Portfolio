@@ -1,0 +1,117 @@
+@keyframes arcoiris {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.noencontrado-container h1,
+.noencontrado-container h2 {
+    font-size: 2em;
+    background: linear-gradient(
+        270deg,
+        #8b0000,
+        #a04000,
+        #8b4513,
+        #006400,
+        #00008b,
+        #4b0082,
+        #8b0000
+    );
+    background-size: 300% 300%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: arcoiris 4s ease infinite;
+    
+}
+
+.noencontrado-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-color: var(--beige);
+    width: 1200px;
+    border: 5px;
+    border-color: var(--header_card);
+    border-style: solid;
+    border-radius: 20px;
+    box-shadow: 0 20px 0 0 var(--header_card);
+    transition: all .5s;
+}
+.noencontrado-container:hover  {
+    box-shadow: 0px 0px 0px 0px var(--header_card);
+    background-image: url(/media/shhhh3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+
+.noencontrado-container .bubble-chat-container1 img{
+    width: 250px; 
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+.noencontrado-container .bubble-chat-container1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 250px;
+    height: 300px;
+}
+
+.noencontrado-container .bubble-chat-container1 .bubble-chat{
+    background-color: white;
+    width: 300px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    border-end-start-radius: 0px;
+    position: absolute;
+    left: 180px;
+    top: 0;
+    height: 80px;
+}
+
+.noencontrado-container .bubble-chat-container1 .bubble-chat a{
+    text-decoration: none;
+    background-color: var(--verde_agua);
+    padding: 5px;
+    border-radius: 15px;
+    color: white;
+    transition: all .5s;
+}
+
+.noencontrado-container .bubble-chat-container1 .bubble-chat a:hover{
+    background-color: var(--verde_agua_oscuro);
+}
+/*OTRO*/
+.noencontrado-container .bubble-chat-container2 img{
+    width: 250px; 
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.noencontrado-container .bubble-chat-container2{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 280px;
+}
+
+.noencontrado-container .bubble-chat-container2 .bubble-chat{
+    background-color: white;
+    width: 300px;
+    color: black;
+    border: 2px solid black;
+    border-radius: 15px;
+    border-end-end-radius: 0px;
+    position: absolute;
+    right: 180px;
+    top: 50px;
+    height: 30px;
+}

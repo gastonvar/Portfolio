@@ -1,0 +1,87 @@
+.listareventosanteriores-container {
+    background-color: var(--beige);
+    color: var(--texto_negro);
+    height: var(--altura_card);
+    border-radius: 15px;
+    color: var(--texto_negro);
+    transition: all .5s;
+    box-shadow: 0 20px 0 0 #ffd48f;
+    transition: all .5s;
+    overflow: auto;
+    position: relative; 
+}
+
+.listareventosanteriores-container:hover {
+    box-shadow: 0 0 0 0 #ffd48f;
+}
+
+.listareventosanteriores-container div {
+    background-color: var(--beige_oscuro);
+    display: inline-block;
+    margin-top: 17%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.listareventosanteriores-tabla{
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.listareventosanteriores-tabla tbody tr td img {
+    text-align: center;
+    padding: 10px;
+}
+
+.listareventosanteriores-container h2{
+    padding: 10px;
+    background-color: var(--beige_oscuro);
+}
+
+.listareventosanteriores-tabla th,
+.listareventosanteriores-tabla td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.listareventosanteriores-tabla th {
+  background-color: var(--header_card);
+  color: #333;
+  position: sticky;
+  top: 0;
+  z-index: 1; 
+}
+
+.listareventosanteriores-tabla .delete-button {
+  background-color: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+}
+
+.listareventosanteriores-tabla .delete-button:hover {
+  background-color: #ff1a1a;
+}
+
+.listareventosanteriores-container::-webkit-scrollbar {
+    width: 10px;
+}
+
+.listareventosanteriores-container::-webkit-scrollbar-track {
+    background: var(--beige); 
+    border-radius: 10px;
+}
+
+.listareventosanteriores-container::-webkit-scrollbar-thumb {
+    background-color: #888; 
+    border-radius: 10px;
+    border: 3px solid #f4f4f4;
+}
+
+.listareventosanteriores-container::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}

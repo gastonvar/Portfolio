@@ -1,0 +1,98 @@
+/* src/components/Login.css */
+
+.login-container {
+  width: 400px;
+  height: var(--altura_card_login_signin);
+  margin: 0 auto;
+  padding: 35px;
+  background-color: var(--celeste);
+  border-radius: 15px;
+  box-shadow: -20px 20px 0px 0px var(--violeta);
+  transition: all .5s;
+  color: var(--texto_negro);
+}
+
+.login-container .logo{
+  height:150px;
+  width: 150px;
+}
+
+.login-container .logo{
+margin: 30px auto;
+background-color: var(--violeta);
+padding: 10px;
+background-image: url(../../../media/baby_kissless.png);
+background-size: contain;
+background-repeat: no-repeat;
+background-position: center;
+transition:all .5s;
+}
+
+.login-container .logo:hover{
+  background-image: url(../../../media/baby.png);
+}
+
+
+
+.login-container:hover {
+  background-color: var(--celeste);
+  box-shadow: 20px -20px 0px 0px var(--violeta);
+}
+
+.login-container .login-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.login-container .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.login-container .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.login-container .btn-primary {
+  width: 100%;
+  padding: 10px;
+}
+
+.login-container .login-label {
+  background-color: var(--violeta);
+  padding: 10px;
+  border-radius: 15px;
+  transition: all .5s;
+}
+
+.login-container input[type="text"],
+input[type="password"] {
+  background-color: var(--texto_blanco);
+  border: 2px solid var(--texto_blanco);
+  padding: 10px;
+  box-sizing: border-box;
+  color: var(--texto_negro);
+}
+
+
+.login-container .login-button {
+  background-color: var(--violeta);
+  border-color: var(--violeta);
+  color: var(--texto_negro);
+}
+
+
+.login-container .login-button:hover{
+  background-color: var(--violeta_oscuro);
+}
+
+
+h2 {
+  letter-spacing: 7px;
+}
+
+.login-container pre {
+  color: white;
+}

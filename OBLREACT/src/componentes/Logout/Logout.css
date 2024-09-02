@@ -1,0 +1,18 @@
+.logout-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 15px 15px 15px 15px;
+  font-size: 14px;
+  padding: 8px 8px;
+  background-color: var(--rosa);
+  border: 2px solid transparent;
+  border-radius: 5px;
+  color: var(--texto_negro);
+  font-size: 15px;
+  transition: all .5s;
+}
+
+.logout-button:hover {
+  background-color: var(--rosa_oscuro);
+}

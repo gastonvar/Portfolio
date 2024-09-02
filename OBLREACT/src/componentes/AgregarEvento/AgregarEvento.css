@@ -1,0 +1,90 @@
+.agregarevento-container h2 {
+  margin-bottom: 20px;
+}
+
+.agregarevento-container {
+  height: var(--altura_card);
+  margin: 0 auto;
+  padding: 35px;
+  background-color: var(--naranja);
+  border-radius: 15px;
+  color: var(--texto_negro);
+  box-shadow: 0 20px 0px 0px var(--naranja_claro);
+  transition: all .5s;
+  margin: 0 auto;
+}
+
+.agregarevento-container:hover{
+  box-shadow: 0px 0px 0px 0px var(--naranja_claro);
+}
+
+.agregarevento-container select,
+.agregarevento-container input[type="datetime-local"],
+.agregarevento-container textarea {
+  width: 90%;
+  height: 50px;
+  border-radius: 15px;
+
+  padding: 10px;
+  box-sizing: border-box;
+  color: var(--texto_negro);
+  background-color: white;
+  transition: all .5s;
+}
+.agregarevento-container input[type="datetime-local"]{
+  background-color: rgb(128, 128, 128);
+  }
+.agregarevento-container textarea {
+  height: 100px;
+  resize: none;
+}
+
+.agregarevento-container select {
+  transition: all .1s;
+}
+
+.agregarevento-container:hover label {
+  background-color: var(--color_login_hover_label);
+}
+
+.agregarevento-container .agregarevento-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.agregarevento-container .form-group {
+  margin-bottom: 15px;
+}
+
+.agregarevento-container .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.agregarevento-container .btn-primary {
+  width: 90%;
+  padding: 10px;
+}
+
+.agregarevento-container .agregarevento-label {
+  background-color: var(--color_login_offset);
+  padding: 5px;
+  border-radius: 15px;
+  transition: all .5s;
+}
+
+
+.agregarevento-container .agregarevento-button {
+  background-color: var(--naranja_claro);
+  border-color: var(--naranja_claro);
+}
+
+.agregarevento-container .agregarevento-button:hover {
+  background-color: var(--naranja_oscuro);
+  border-color: var(--naranja_oscuro);
+}
+
+h2 {
+  letter-spacing: 7px;
+}

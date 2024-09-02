@@ -1,0 +1,60 @@
+:root {
+  --rosa: #ffadad;
+  --naranja: #ffd6a5;
+  --amarillo: #fdffb6;
+  --verde: #e4f1ee;
+  --celeste: #d9edf8;
+  --violeta: #b6b1e2;
+  --violeta_oscuro:#9f99bd;
+  --naranja_oscuro: #ff7f50;
+  --naranja_claro: #ff9f6f;
+  --rosa_oscuro: #ff8585;
+
+  --verde_agua: #59c5c5;
+  --verde_agua_oscuro:#3b8f8f;
+  --beige: #ffeed3;
+  --beige_oscuro: #ffd48f;
+
+  --texto_blanco: rgb(255, 255, 255);
+  --texto_negro: rgb(0, 0, 0);
+  --altura_card_login_signin: 625px;
+  --altura_card:450px; 
+  --altura_card_pequena:260px;
+  --header_card: rgba(255, 136, 0, 0.726);
+}
+
+#root {
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: 'Fira Code';
+}
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  width: 100%;
+  height: 100%;
+}
+
+.app-container {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+.container-fluid{
+  width: 100% !important;
+}
+.app-container-insider {
+  width: 100%;
+}
+
+html, body {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+

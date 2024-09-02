@@ -1,0 +1,82 @@
+/* src/components/Login.css */
+.signin-container {
+  width: 400px;
+  height: var(--altura_card_login_signin);
+  margin: 0 auto;
+  padding: 35px;
+  background-color: var(--celeste);
+  border-radius: 15px;
+  box-shadow: 20px 20px 0px 0px var(--violeta);
+  transition: all .5s;
+  color: var(--texto_negro);
+}
+
+.signin-container:hover {
+  background-color: var(--celeste);
+  box-shadow: -20px -20px 0px 0px var(--violeta);
+}
+
+.signin-container .signin-title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.signin-container .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.signin-container .form-control {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+}
+
+.signin-container .btn-primary {
+  width: 100%;
+  padding: 10px;
+}
+
+.signin-container .signin-label {
+  background-color: var(--violeta);
+  padding: 10px;
+  border-radius: 15px;
+  transition: all .5s;
+}
+
+.signin-container input[type="text"],
+.signin-container input[type="password"] {
+  background-color: var(--texto_blanco);
+  border: 2px solid var(--texto_blanco);
+  padding: 10px;
+  box-sizing: border-box;
+  color: var(--texto_negro);
+}
+
+
+.signin-container .signin-button {
+  background-color: var(--violeta);
+  border-color: var(--violeta);
+  color: var(--texto_negro);
+}
+.signin-container .signin-button:hover{
+  background-color: var(--violeta_oscuro);
+}
+
+h2 {
+  letter-spacing: 7px;
+}
+
+.signin-container pre {
+  color: white;
+}
+
+.signin-container .form-control {
+  background-color: var(--texto_blanco);
+  color: var(--texto_negro);
+  border-color: var(--texto_blanco);
+  padding: 5px;
+  border-radius: 5px;
+  margin-top: 5px;
+  appearance: none;
+}

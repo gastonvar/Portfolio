@@ -1,0 +1,38 @@
+.contadorPanales {
+    background-color: var(--beige);
+    color: var(--texto_negro);
+    border-radius: 15px;
+    transition: all .5s;
+    box-shadow: 0 20px 0 0 #ffd48f;
+    overflow: auto;
+    position: relative; 
+    height: var(--altura_card_pequena);
+    overflow: hidden;
+}
+
+.contadorPanales p {
+    border-radius: 15px;
+}
+
+.contadorPanales h2 {
+    padding: 10px;
+    background-color: var(--beige_oscuro);
+    margin-bottom: 0px;
+}
+
+.contadorPanales:hover {
+    box-shadow: 0 0 0 0 #ffd48f;
+}
+
+.contadorPanales img {
+    width: 100px;
+    height: auto;
+}
+
+.contadorPanales .fechaHoy {
+    background-color: var(--header_card);
+    padding: 10px;
+    border-radius: 0px;
+    text-align: center;
+    margin-bottom: 15px;
+}
